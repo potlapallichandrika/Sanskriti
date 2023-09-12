@@ -795,11 +795,11 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'sanskriti_local_common',
-  'username' => 'drupal',
-  'password' => 'Drupal@123',
+  'database' => 'sanskriti',
+  'username' => 'root',
+  'password' => '',
   'prefix' => '',
-  'host' => '192.169.81.92',
+  'host' => 'localhost',
   'port' => '3306',
   'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
   'driver' => 'mysql',
