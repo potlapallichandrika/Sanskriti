@@ -1,0 +1,35 @@
+<script>	   
+	window.addEventListener('DOMContentLoaded', (event) => {    jQuery("#{{ table_id }}").DataTable({ paging: false, info: false });});	 
+		</script>
+		
+		
+		<section class="visual-arts">
+      <div class="container">
+	  {% set table_num = 0 %}
+	  {% for row in content.field_winners['#items'] %}
+	  {% set table_num = table_num + 1 %}
+	  {% set table_id = 'mytable' ~ table_num %}
+	  
+	  
+	   <script>	   
+	window.addEventListener('DOMContentLoaded', (event) => {    jQuery("#{{ table_id }}").DataTable({ paging: false, info: false });});	 
+		</script>
+		 
+        <div id="{{ row.entity.field_table_.value}}" class="visual arts">
+          <h1
+            style="text-align: center; font-size: 30px; padding-top: 30px"
+            class="heading-title size-default"
+          >
+            {{ row.entity.field_table_.value }}
+          </h1>
+          {{ row.entity.field_table_des.value | replace({'mytable': table_id }) | raw }}
+        </div>
+		{% endfor %}
+      </div>
+    </section>
+	
+	{{ content.field_contests }}
+{% for row in content.field_contests['#items'] %}
+{# row.entity.field_table_description.value| raw #}
+{% set table_id = "tables_" ~  row.entity.id %}
+==<div id="{{ table_id }}">Parent:{{ row.entity.parent.entity.label }} for {{ row.entity.name.value }} and id is {{ row.entity.id }} </div>==<br>

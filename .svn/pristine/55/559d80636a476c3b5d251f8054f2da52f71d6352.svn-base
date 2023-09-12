@@ -1,0 +1,31 @@
+{{ page.promotional_banner }}
+{{page.header}}
+{{page.home_page_content}}
+
+
+{% if page.homepage_content_left or page.homepage_content_right%}
+<section class="page-section" id="glimpses">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="sec-title text-center">
+				<h1 class="main-sec-title">{{glimpses_title_head}}</h1>
+                <hr class="divider divider" />				
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+			   {{page.homepage_content_left}}
+			</div>
+			<div class="col-md-6">
+				{{page.homepage_content_right}}
+		  </div>
+		</div>
+	</div>
+</section>
+{% endif %}
+{{page.homepage_content_bottom}}
+
+	<footer class="bg-light py-5">
+	{{page.mini_footer}}
+	
+	</footer>

@@ -1,0 +1,36 @@
+<section class="page-section"  id="key-guest">
+            <div class="container">
+                <div class="row text-center"> 
+                        <h1 class="main-sec-title">Key Guests</h1>
+                        <hr class="divider divider" /> 
+                </div>
+                <div class="row"> 
+                    <div class="col-md-6 key-guest-sec-img">
+                         <img src="{{content.field_image[0]}}" alt="Swami Mukundanada" style="width:100%;">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="key-guest-card-title text-center">
+                            <h3>{{ content.field_title[0] }}</h3>
+                        </div>
+                        <div class="key-guest-card-text">
+                            {{content.field_description[0]|raw}}
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row key-guest-sec-row">
+				{% for temp in content.field_key_guests['#items'] %}
+                    <div class="col-md-4 key-guest-sec-img">
+                        <div class="img"> <img src="{{ file_url(temp.entity.field_image.entity.uri.value) }}" alt="Swami Mukundanada" style="width:100%;"> </div> 
+                        <div class="key-guest-card-title text-center">
+                            <h4>{{ temp.entity.field_title.value }}</h4>
+                        </div>
+                        <div class="key-guest-card-text">
+                            {{ temp.entity.field_description.value | raw }} 
+                        </div> 
+						
+                    </div>
+					{% endfor %}
+                </div>
+            </div>
+        </section>

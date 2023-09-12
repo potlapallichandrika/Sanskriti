@@ -1,0 +1,36 @@
+<?php
+use Symfony\Component\HttpFoundation\RedirectResponse;
+
+function sanskriti_module_theme() {
+  return array(
+    'custom_menu_block' => array(
+      'variables' => array(
+        'title' => NULL, 
+		'main_menu' => NULL,
+		'logo' => NULL,
+        ),
+      'template' => 'custom_menu_block',
+    ),
+	
+  );
+}
+
+
+/**
+ *
+ */
+function sanskriti_module_user_login($account) {
+  $current_user = \Drupal::currentUser();
+  $roles = $current_user->getRoles();
+  $session = \Drupal::service('session');
+  if(in_array('administrator', array_values($roles)) || in_array('content_admin', array_values($roles)) || in_array('blog_editor', array_values($roles)) || in_array('rkt_content_admin', array_values($roles)) || in_array('content_creator', array_values($roles))) {
+    $response = new RedirectResponse(base_path() . 'admin/dashboard');
+    $request = \Drupal::request();
+    // Save the session so things like messages get saved.
+    $request->getSession()->save();
+    $response->prepare($request);
+    // Make sure to trigger kernel events.
+    \Drupal::service('kernel')->terminate($request, $response);
+    $response->send();    
+  }
+}

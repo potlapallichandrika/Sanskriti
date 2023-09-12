@@ -1,0 +1,16 @@
+<?php
+
+
+function sanskriti_module_theme() {
+  return array(
+    'custom_menu_block' => array(
+      'variables' => array(
+        'title' => NULL, 
+		'jkyog_menu' => NULL,
+		'logo' => NULL,
+        ),
+      'template' => 'custom_menu_block',
+    ),
+	
+  );
+}

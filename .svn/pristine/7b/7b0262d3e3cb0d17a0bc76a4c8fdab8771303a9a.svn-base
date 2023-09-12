@@ -1,0 +1,15 @@
+
+<? php
+
+function sanskriti_module_theme() {
+  return array(
+    'main_menu_block' => array(
+      'variables' => array(
+        'title' => NULL, 
+		'main_menu' => NULL,
+		'logo' => NULL,
+        ),
+      'template' => 'main_menu_block',
+    ),
+  );
+}

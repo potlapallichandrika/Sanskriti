@@ -1,0 +1,21 @@
+<section class="page-section" id="events">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="sec-title text-center">
+                        <h1 class="main-sec-title">{{content.field_title[0] | raw}}</h2> 
+                         <hr class="divider divider" />
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="events-highlight-content">
+                            {{content.body[0] | raw}}
+                        </div>
+                    </div>
+                    <div class="col-md-6 ">
+                        <div class="events-highlight-video">
+                            <iframe class="events-video-sec" width="100%" height="415" src="https://www.youtube.com/embed/{{content.field_video_id[0]}}" frameborder="0" allowfullscreen> </iframe> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>

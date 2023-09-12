@@ -1,0 +1,24 @@
+{% extends "block.html.twig" %}
+{#
+/**
+ * @file
+ * Bartik's theme implementation for a branding block.
+ *
+ * Each branding element variable (logo, name, slogan) is only available if
+ * enabled in the block configuration.
+ *
+ * Available variables:
+ * - site_logo: Logo for site as defined in Appearance or theme settings.
+ * - site_name: Name for site as defined in Site information settings.
+ * - site_slogan: Slogan for site as defined in Site information settings.
+ */
+#}
+<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-f600a8f" data-id="f600a8f" data-element_type="column">
+		          <div class="elementor-widget-wrap elementor-element-populated">
+				<div class="elementor-element elementor-element-1f6dd01 elementor-widget elementor-widget-image" data-id="1f6dd01" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+				<img width="150" height="150" src="{{ site_logo }}" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" sizes="(max-width: 150px) 100vw, 150px" />															
+				</div>
+				</div>
+				</div>
+	            </div>

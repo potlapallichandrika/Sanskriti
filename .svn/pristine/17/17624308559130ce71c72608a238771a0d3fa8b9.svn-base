@@ -1,0 +1,32 @@
+{{ page.promotional_banner }}
+{{page.header}}
+{{page.home_page_content}}
+{{page.homepage_content_right}}
+{{page.homepage_content_left}}
+
+	<footer class="bg-light py-5">
+            <div class="container px-4 px-lg-5"><div class="small text-center text-muted"> <!-- Facebook -->
+
+<!-- Facebook -->
+<a class="btn" style="background-color: #3b5998; color: white;" href="#!" role="button"
+  ><i class="fab fa-facebook-f"></i
+></a>
+<!-- Youtube -->
+<a class="btn" style="background-color: #ed302f; color: white;" href="#!" role="button"
+  ><i class="fab fa-youtube"></i
+></a>
+
+
+<!-- Google -->
+<a class="btn" style="background-color: #dd4b39; color: white;" href="#!" role="button"
+  ><i class="fab fa-google"></i
+></a>
+<!-- Whatsapp -->
+<a class="btn" style="background-color: #25d366; color: white;" href="#!" role="button"
+  ><i class="fab fa-whatsapp"></i
+></a>
+</div></div>
+
+            <div class="container px-4 px-lg-5 pt-2"><div class="small text-center text-muted">Copyright &copy; 2022 Sanskriti.jkyog.org and Developed By <a href="http://www.ipowerfour.com/" target="_blank">iPowerFour</a>
+            </div></div>
+        </footer>

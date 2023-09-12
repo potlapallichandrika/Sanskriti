@@ -1,0 +1,170 @@
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\SandboxExtension;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+
+/* themes/custom/sanskriti/templates/block/block--mainmenu.html.twig */
+class __TwigTemplate_263d4c5c0e115bbd4b7496f6ece6d039de3d48de074bccd0d41da3dfa328e59b extends \Twig\Template
+{
+    private $source;
+    private $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->parent = false;
+
+        $this->blocks = [
+            'content' => [$this, 'block_content'],
+        ];
+        $this->sandbox = $this->env->getExtension('\Twig\Extension\SandboxExtension');
+        $this->checkSecurity();
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 1
+        echo "<div data-elementor-type=\"header\" data-elementor-id=\"6022\" class=\"elementor elementor-6022 elementor-location-header\">
+\t<div class=\"elementor-section-wrap\">
+\t\t<section class=\"elementor-section elementor-top-section elementor-element elementor-element-a71bb63 elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle\" data-id=\"a71bb63\" data-element_type=\"section\">
+\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">
+\t\t\t\t<div class=\"elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-f600a8f\" data-id=\"f600a8f\" data-element_type=\"column\">
+\t\t          <div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t\t\t<div class=\"elementor-element elementor-element-1f6dd01 elementor-widget elementor-widget-image\" data-id=\"1f6dd01\" data-element_type=\"widget\" data-widget_type=\"image.default\">
+\t\t\t\t<div class=\"elementor-widget-container\">
+\t\t\t\t<img width=\"150\" height=\"150\" src=\"";
+        // line 9
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["logo"] ?? null), 9, $this->source), "html", null, true);
+        echo "\" class=\"attachment-thumbnail size-thumbnail\" alt=\"\" loading=\"lazy\" sizes=\"(max-width: 150px) 100vw, 150px\" />\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\t\t\t\t</div>
+\t\t\t\t</div>
+\t\t\t\t</div>
+\t            </div>
+\t\t\t<div class=\"elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-cc8b1b3\" data-id=\"cc8b1b3\" data-element_type=\"column\">
+\t\t    <div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t\t<div class=\"elementor-element elementor-element-d8df8ac elementor-nav-menu__align-center elementor-nav-menu--dropdown-none elementor-widget elementor-widget-nav-menu\" data-id=\"d8df8ac\" data-element_type=\"widget\" data-settings=\"{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\\&quot;fas fa-caret-down\\&quot;&gt;&lt;\\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}\" data-widget_type=\"nav-menu.default\">
+\t\t\t<div class=\"elementor-widget-container\">
+\t\t\t\t\t\t\t";
+        // line 19
+        echo "\t\t\t\t\t  ";
+        $this->displayBlock('content', $context, $blocks);
+        // line 21
+        echo "\t\t
+\t\t\t
+\t\t\t<div class=\"elementor-menu-toggle\" role=\"button\" tabindex=\"0\" aria-label=\"Menu Toggle\" aria-expanded=\"false\">
+\t\t<i aria-hidden=\"true\" role=\"presentation\" class=\"elementor-menu-toggle__icon--open eicon-menu-bar\"></i><i aria-hidden=\"true\" role=\"presentation\" class=\"elementor-menu-toggle__icon--close eicon-close\"></i>\t\t\t<span class=\"elementor-screen-only\">Menu</span>
+\t</div>
+\t</div>
+\t</div>
+\t\t</div>
+\t</div>
+\t\t</div>
+\t</section>
+\t\t\t</div>
+\t</div>";
+    }
+
+    // line 19
+    public function block_content($context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 20
+        echo "\t\t\t\t\t\t";
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["content"] ?? null), 20, $this->source), "html", null, true);
+        echo "
+\t\t\t\t\t  ";
+    }
+
+    public function getTemplateName()
+    {
+        return "themes/custom/sanskriti/templates/block/block--mainmenu.html.twig";
+    }
+
+    public function isTraitable()
+    {
+        return false;
+    }
+
+    public function getDebugInfo()
+    {
+        return array (  85 => 20,  81 => 19,  65 => 21,  62 => 19,  50 => 9,  40 => 1,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Source("<div data-elementor-type=\"header\" data-elementor-id=\"6022\" class=\"elementor elementor-6022 elementor-location-header\">
+\t<div class=\"elementor-section-wrap\">
+\t\t<section class=\"elementor-section elementor-top-section elementor-element elementor-element-a71bb63 elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle\" data-id=\"a71bb63\" data-element_type=\"section\">
+\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">
+\t\t\t\t<div class=\"elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-f600a8f\" data-id=\"f600a8f\" data-element_type=\"column\">
+\t\t          <div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t\t\t<div class=\"elementor-element elementor-element-1f6dd01 elementor-widget elementor-widget-image\" data-id=\"1f6dd01\" data-element_type=\"widget\" data-widget_type=\"image.default\">
+\t\t\t\t<div class=\"elementor-widget-container\">
+\t\t\t\t<img width=\"150\" height=\"150\" src=\"{{ logo }}\" class=\"attachment-thumbnail size-thumbnail\" alt=\"\" loading=\"lazy\" sizes=\"(max-width: 150px) 100vw, 150px\" />\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\t\t\t\t</div>
+\t\t\t\t</div>
+\t\t\t\t</div>
+\t            </div>
+\t\t\t<div class=\"elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-cc8b1b3\" data-id=\"cc8b1b3\" data-element_type=\"column\">
+\t\t    <div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t\t<div class=\"elementor-element elementor-element-d8df8ac elementor-nav-menu__align-center elementor-nav-menu--dropdown-none elementor-widget elementor-widget-nav-menu\" data-id=\"d8df8ac\" data-element_type=\"widget\" data-settings=\"{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\\&quot;fas fa-caret-down\\&quot;&gt;&lt;\\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}\" data-widget_type=\"nav-menu.default\">
+\t\t\t<div class=\"elementor-widget-container\">
+\t\t\t\t\t\t\t{# Menu. #}
+\t\t\t\t\t  {% block content %}
+\t\t\t\t\t\t{{ content }}
+\t\t\t\t\t  {% endblock %}\t\t
+\t\t\t
+\t\t\t<div class=\"elementor-menu-toggle\" role=\"button\" tabindex=\"0\" aria-label=\"Menu Toggle\" aria-expanded=\"false\">
+\t\t<i aria-hidden=\"true\" role=\"presentation\" class=\"elementor-menu-toggle__icon--open eicon-menu-bar\"></i><i aria-hidden=\"true\" role=\"presentation\" class=\"elementor-menu-toggle__icon--close eicon-close\"></i>\t\t\t<span class=\"elementor-screen-only\">Menu</span>
+\t</div>
+\t</div>
+\t</div>
+\t\t</div>
+\t</div>
+\t\t</div>
+\t</section>
+\t\t\t</div>
+\t</div>", "themes/custom/sanskriti/templates/block/block--mainmenu.html.twig", "D:\\xampp-7.4.28\\htdocs\\Sanskriti\\BED\\branches\\development\\themes\\custom\\sanskriti\\templates\\block\\block--mainmenu.html.twig");
+    }
+    
+    public function checkSecurity()
+    {
+        static $tags = array("block" => 19);
+        static $filters = array("escape" => 9);
+        static $functions = array();
+
+        try {
+            $this->sandbox->checkSecurity(
+                ['block'],
+                ['escape'],
+                []
+            );
+        } catch (SecurityError $e) {
+            $e->setSourceContext($this->source);
+
+            if ($e instanceof SecurityNotAllowedTagError && isset($tags[$e->getTagName()])) {
+                $e->setTemplateLine($tags[$e->getTagName()]);
+            } elseif ($e instanceof SecurityNotAllowedFilterError && isset($filters[$e->getFilterName()])) {
+                $e->setTemplateLine($filters[$e->getFilterName()]);
+            } elseif ($e instanceof SecurityNotAllowedFunctionError && isset($functions[$e->getFunctionName()])) {
+                $e->setTemplateLine($functions[$e->getFunctionName()]);
+            }
+
+            throw $e;
+        }
+
+    }
+}

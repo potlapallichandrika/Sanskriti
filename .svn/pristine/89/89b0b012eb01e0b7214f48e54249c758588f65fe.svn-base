@@ -1,0 +1,78 @@
+<section class="elementor-section elementor-top-section elementor-element elementor-element-6d3c9a3 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="6d3c9a3" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="elementor-container elementor-column-gap-no">
+				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8f4e32f" data-id="8f4e32f" data-element_type="column">
+		<div class="elementor-widget-wrap elementor-element-populated">
+			<section class="elementor-section elementor-inner-section elementor-element elementor-element-67aab10 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="67aab10" data-element_type="section">
+					<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-958e02f" data-id="958e02f" data-element_type="column">
+		<div class="elementor-widget-wrap elementor-element-populated">
+							<div class="elementor-element elementor-element-acd766b elementor-widget elementor-widget-heading" data-id="acd766b" data-element_type="widget" data-widget_type="heading.default">
+			<div class="elementor-widget-container">
+		<h1 class="elementor-heading-title elementor-size-default">Glimpses</h1>		</div>
+			</div>
+				</div>
+	</div>
+						</div>
+	</section>
+			<section class="elementor-section elementor-inner-section elementor-element elementor-element-14f4489 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="14f4489" data-element_type="section">
+				<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1394150" data-id="1394150" data-element_type="column">
+		<div class="elementor-widget-wrap elementor-element-populated">
+		<div class="elementor-element elementor-element-6910e86 elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel" data-id="6910e86" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;autoplay_speed&quot;:3000,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
+			<div class="elementor-widget-container">
+			<div class="elementor-image-carousel-wrapper swiper-container" dir="ltr">
+		   <div class="elementor-image-carousel swiper-wrapper">
+							<div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="themes/custom/sanskriti/images/uploads/2021/10/57291159_2124218254330244_5053550905220136960_n-1.jpg" alt="57291159_2124218254330244_5053550905220136960_n (1)" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/10/57160386_2122780467807356_1980465452328943616_n-768x1023.jpg" alt="57160386_2122780467807356_1980465452328943616_n" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/10/56604982_2122780871140649_548517622061203456_n-768x1024.jpg" alt="56604982_2122780871140649_548517622061203456_n" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/10/56542916_2122779894474080_3680927684390551552_n-768x1024.jpg" alt="56542916_2122779894474080_3680927684390551552_n" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/10/84633895_2495997700501597_8106811888584622080_n-768x1157.jpg" alt="84633895_2495997700501597_8106811888584622080_n" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/10/84995523_2494108224023878_8597281996848234496_n-768x1157.jpg" alt="84995523_2494108224023878_8597281996848234496_n" /></figure></div>			</div>
+											<div class="swiper-pagination"></div>
+												<div class="elementor-swiper-button elementor-swiper-button-prev">
+					<i aria-hidden="true" class="eicon-chevron-left"></i>						<span class="elementor-screen-only">Previous</span>
+				</div>
+				<div class="elementor-swiper-button elementor-swiper-button-next">
+					<i aria-hidden="true" class="eicon-chevron-right"></i>						<span class="elementor-screen-only">Next</span>
+				</div>
+								</div>
+			</div>
+			</div>
+				</div>
+	</div>
+			<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-f17dd5e" data-id="f17dd5e" data-element_type="column">
+		   <div class="elementor-widget-wrap elementor-element-populated">
+			<div class="elementor-element elementor-element-e7c3656 elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel" data-id="e7c3656" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;autoplay_speed&quot;:3000,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
+			    <div class="elementor-widget-container">
+				<div class="elementor-image-carousel-wrapper swiper-container" dir="ltr">
+		         <div class="elementor-image-carousel swiper-wrapper">
+							<div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/09/85117093_2494056567362377_2280200619937497088_n-1-768x512.jpg" alt="85117093_2494056567362377_2280200619937497088_n (1)" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/09/56985577_2124220114330058_441602653269524480_n-1-768x478.jpg" alt="56985577_2124220114330058_441602653269524480_n (1)" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/09/85003607_2494060184028682_4467831324413001728_n-1-768x541.jpg" alt="85003607_2494060184028682_4467831324413001728_n (1)" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/10/56697037_2120930297992373_4413519435730518016_n-1-768x512.jpg" alt="56697037_2120930297992373_4413519435730518016_n (1)" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/10/56158103_2120057131413023_9190534228738048_n-1-768x512.jpg" alt="56158103_2120057131413023_9190534228738048_n (1)" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/10/Coloring-1-1-768x512.jpg" alt="Coloring (1) (1)" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/10/56618812_2122779034474166_6383267243848892416_n-1-768x575.jpg" alt="56618812_2122779034474166_6383267243848892416_n (1)" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/10/56697138_2124220217663381_7735197698793406464_n-1-1-768x417.jpg" alt="56697138_2124220217663381_7735197698793406464_n (1) (1)" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/10/56702281_2121494137935989_1812022396962471936_n-1-768x438.jpg" alt="56702281_2121494137935989_1812022396962471936_n (1)" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/10/Coloring2-1-768x512.jpg" alt="Coloring2 (1)" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/10/GP2-1-768x512.jpg" alt="GP2 (1)" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/10/56800618_2124220797663323_7200917992102690816_n-2-1-768x594.jpg" alt="56800618_2124220797663323_7200917992102690816_n (2) (1)" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/10/84737721_2492131050888262_7752960699982151680_n-1-768x512.jpg" alt="84737721_2492131050888262_7752960699982151680_n (1)" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/10/84850271_2492130994221601_7428597025962196992_n-1-768x512.jpg" alt="84850271_2492130994221601_7428597025962196992_n (1)" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/10/84859105_2494051247362909_8948825615486681088_n-2-1-768x512.jpg" alt="84859105_2494051247362909_8948825615486681088_n (2) (1)" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/10/84944420_2492131690888198_5052879520227393536_n-1-768x512.jpg" alt="84944420_2492131690888198_5052879520227393536_n (1)" /></figure></div>			
+							</div>
+											<div class="swiper-pagination"></div>
+												<div class="elementor-swiper-button elementor-swiper-button-prev">
+					<i aria-hidden="true" class="eicon-chevron-left"></i>						<span class="elementor-screen-only">Previous</span>
+				</div>
+				<div class="elementor-swiper-button elementor-swiper-button-next">
+					<i aria-hidden="true" class="eicon-chevron-right"></i>						<span class="elementor-screen-only">Next</span>
+				</div>
+								</div>
+			</div>
+			</div>
+			<div class="elementor-element elementor-element-df9ec60 elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel" data-id="df9ec60" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;autoplay_speed&quot;:3000,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
+			<div class="elementor-widget-container">
+				<div class="elementor-image-carousel-wrapper swiper-container" dir="ltr">
+		<div class="elementor-image-carousel swiper-wrapper">
+							<div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/09/85025456_2494060087362025_2385063539254493184_n-1-768x545.jpg" alt="85025456_2494060087362025_2385063539254493184_n (1)" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/10/84443735_2495999627168071_93907265198751744_n-768x510.jpg" alt="84443735_2495999627168071_93907265198751744_n" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/10/84797560_2494090144025686_1545987239270416384_n-1-768x510.jpg" alt="84797560_2494090144025686_1545987239270416384_n (1)" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/10/Singing-GP-1-768x323.jpg" alt="Singing GP (1)" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/10/57379407_2124220007663402_5052025985671626752_n-768x343.jpg" alt="57379407_2124220007663402_5052025985671626752_n" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/10/57104197_2124220714329998_8384664369618747392_n-768x369.jpg" alt="57104197_2124220714329998_8384664369618747392_n" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/10/56587604_2121494121269324_6656234689210089472_n-768x446.jpg" alt="56587604_2121494121269324_6656234689210089472_n" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/10/84797560_2494090144025686_1545987239270416384_n-768x510.jpg" alt="84797560_2494090144025686_1545987239270416384_n" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/10/85161471_2494070240694343_8989035730672025600_n-768x512.jpg" alt="85161471_2494070240694343_8989035730672025600_n" /></figure></div>			</div>
+											<div class="swiper-pagination"></div>
+												<div class="elementor-swiper-button elementor-swiper-button-prev">
+					<i aria-hidden="true" class="eicon-chevron-left"></i>						<span class="elementor-screen-only">Previous</span>
+				</div>
+				<div class="elementor-swiper-button elementor-swiper-button-next">
+					<i aria-hidden="true" class="eicon-chevron-right"></i>						<span class="elementor-screen-only">Next</span>
+				</div>
+								</div>
+			</div>
+			</div>
+				</div>
+	</div>
+						</div>
+	</section>
+				</div>
+	</div>
+						</div>
+	</section>

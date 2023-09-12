@@ -1,0 +1,36 @@
+<section class="elementor-section elementor-top-section elementor-element elementor-element-174bfdb elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="174bfdb" data-element_type="section">
+					<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-875aa80" data-id="875aa80" data-element_type="column">
+		<div class="elementor-widget-wrap elementor-element-populated">
+							<div class="elementor-element elementor-element-92f6cf4 elementor-widget elementor-widget-heading" data-id="92f6cf4" data-element_type="widget" data-widget_type="heading.default">
+			<div class="elementor-widget-container">
+		<h1 class="elementor-heading-title elementor-size-default">{{content.field_title[0] | raw}}</h1>		</div>
+			</div>
+				</div>
+	</div>
+						</div>
+	</section>
+			<section class="elementor-section elementor-top-section elementor-element elementor-element-85f34b1 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="85f34b1" data-element_type="section">
+					<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b99c3db" data-id="b99c3db" data-element_type="column">
+		<div class="elementor-widget-wrap elementor-element-populated">
+							<div class="elementor-element elementor-element-6800ae1 elementor-widget elementor-widget-text-editor" data-id="6800ae1" data-element_type="widget" data-widget_type="text-editor.default">
+			<div class="elementor-widget-container">	
+                   {{content.body[0] | raw}}			
+			</div>
+			</div>
+				</div>
+	</div>
+			<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-cd0c3fe" data-id="cd0c3fe" data-element_type="column">
+		<div class="elementor-widget-wrap elementor-element-populated">
+							<div class="elementor-element elementor-element-75ea372 elementor-aspect-ratio-169 elementor-widget elementor-widget-video"   >
+			<div class="elementor-widget-container">
+		
+<div class="elementor-wrapper elementor-fit-aspect-ratio elementor-open-inline">
+		<iframe class="elementor-video" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="Sanskriti glimpse 2020" width="640" height="360" src="https://www.youtube.com/embed/{{content.field_video_id[0]}}" id="widget2"></iframe>		</div>
+			</div>
+			</div>
+				</div>
+	</div>
+						</div>
+	</section>

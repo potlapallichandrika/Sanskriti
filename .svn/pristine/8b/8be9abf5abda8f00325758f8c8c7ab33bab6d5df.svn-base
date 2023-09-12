@@ -1,0 +1,29 @@
+<section class="page-section" id="contests">
+            <div class="container-fluid px-4 px-lg-5">
+                <h2 class="text-center main-sec-title ">{{content.field_title[0] | raw}}</h2>
+                <hr class="divider" />
+                <h3 class="text-center">{{content.field_short_desc[0] | raw}}</h3>
+				{% set count = 1 %}
+				{% for temp in content.field_list_of_contests['#items'] |batch(4) %}
+                <div class="row">
+				
+				{% for var in temp %}
+				
+                    <div class="col-lg-3 col-md-6 col-25 text-center contest-card{{count}}"> 
+                            <div class="mb-2">
+							
+                                <h1 class="contest-card-heading">{{ var.entity.field_title.value | raw }}</h1>
+                            </div>
+                            <div class="contest-card-content"> 
+                            {{ var.entity.field_description.value | raw }}
+                        </div> 
+                        <div class="rules-button">
+                            <a class="btn btn-light btn-xl" href="{{ var.entity.field_button_link.value }}">{{ var.entity.field_button_text.value }}</a>
+                        </div>
+						</div>
+						{% set count = count+1 %}
+                          {% endfor %}					  
+                    </div>  
+                    {% endfor %}						
+                </div>
+        </section>

@@ -1,0 +1,8 @@
+<div class="common-module">
+{% if content.field_title[0] %}
+			<h4>{{ content.field_title[0] | raw }}</h4>
+	{% endif %}
+{% block content %}
+{{ content.body[0] | raw }}
+{% endblock %}
+</div>

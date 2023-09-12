@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- meta character set -->
+	<meta charset="utf-8">
+	<!-- Always force latest IE rendering engine or request Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Sanskriti International</title>
+	<!-- Meta Description -->
+	<meta name="description" content="Sanskriti International - A cultural extravaganza for a cause!">
+	<meta name="keywords" content="Sanskriti">
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CSS
+			================================================== -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+	<!-- Fontawesome Icon font -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- bootstrap.min -->
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	<!-- bootstrap.min -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- bootstrap.min -->
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<!-- bootstrap.min -->
+	<link rel="stylesheet" href="css/slit-slider.css">
+	<!-- bootstrap.min -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Main Stylesheet -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<!-- Modernizer Script for old Browsers -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!--Favicon-->
+	<link rel="icon" href="img/custom/logo.png" type="image/x-icon"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	</head>
+	
+
+<body id="body">
+	<!-- preloader 
+		<div id="preloader">
+            <div class="loder-box">
+            	<div class="battery"></div>
+            </div>
+		</div>
+		<!-- end preloader -->
+	<!--
+        Fixed Navigation
+        ==================================== -->
+		
+	<header id="navigation" class="navbar-inverse navbar-fixed-top animated-header"> 
+    <nav class="navbar navbar-expand-lg navbar-light navbar-main-menu"> 
+		<div class="container">
+            <!-- logo -->
+				<h1 class="navbar-brand text-center">
+        				<a href="#body" class="navbar-brand">
+        					<img src="img/custom/logo.png" alt="logo" style="height: 60px; width: 60px;"></a>
+        		</h1>
+				<!-- /logo -->
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav mx-auto ">
+                    <a href="#" class="nav-item nav-link active text-center">Home</a>
+                    <a href="#contests" class="nav-item nav-link text-center">Contests</a>
+                    <a href="rules.html" class="nav-item nav-link text-center">Rules</a>
+                    <a href="winner.html" class="nav-item nav-link text-center">Winners</a>
+                    <a href="https://wa.me/14343856954" target="_blank" class="nav-item nav-link text-center">Help Desk</a> 
+				</div>
+            </div>
+		</div>
+    </nav> 
+	</header>
+
+	<!--
+        End Fixed Navigation
+        ==================================== -->
+	<main class="site-content" role="main">
+		<!--
+        Home Slider
+        ==================================== -->
+		<section id="home-slider">
+			<div id="slider" class="sl-slider-wrapper">
+				<div class="sl-slider">
+					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+						<div class="bg-img bg-img-1"></div>
+						<div class="slide-caption">
+							<div class="caption-content">
+								<h2 class="animated fadeInDown on-banner-title">Sanskriti</h2>
+								<h2 class="animated fadeInDown">International</h2> <span><a class="typewrite" data-period="10" data-type='[ "A Cultural Extravaganza for a Cause!"]'><span class="wrap"></span></a>
+								</span> 
+								<span class="animated fadeInDown">Did you miss live Grand Award Ceremony 2021?</span> <a href="#" class="btn btn-blue">WATCH IT NOW</a> </div>
+						</div>
+					</div>
+					<!--<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+        				
+        				<div class="bg-img bg-img-2"></div>
+        				<div class="slide-caption">
+        					<div class="caption-content">
+        						<h2>BLUE Onepage HTML5 Template</h2>
+        						<span>Clean and Professional one page Template</span>
+        						<a href="#" class="btn btn-blue btn-effect">Join US</a>
+        					</div>
+        				</div>
+        				
+        			</div>
+        			
+        			<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+        				
+        				<div class="bg-img bg-img-3"></div>
+        				<div class="slide-caption">
+        					<div class="caption-content">
+        						<h2>BLUE Onepage HTML5 Template</h2>
+        						<span>Clean and Professional one page Template</span>
+        						<a href="#" class="btn btn-blue btn-effect">Join US</a>
+        					</div>
+        				</div>
+
+        			</div>--></div>
+				<!-- /sl-slider -->
+				<!-- 
+                <nav id="nav-arrows" class="nav-arrows">
+                    <span class="nav-arrow-prev">Previous</span>
+                    <span class="nav-arrow-next">Next</span>
+                </nav>
+            -->
+				<!--<nav id="nav-arrows" class="nav-arrows hidden-xs hidden-sm visible-md visible-lg">
+            	<a href="javascript:;" class="sl-prev">
+            		<i class="fa fa-angle-left fa-3x"></i>
+            	</a>
+            	<a href="javascript:;" class="sl-next">
+            		<i class="fa fa-angle-right fa-3x"></i>
+            	</a>
+            </nav>
+            
+
+            <nav id="nav-dots" class="nav-dots visible-xs visible-sm hidden-md hidden-lg">
+            	<span class="nav-dot-current"></span>
+            	<span></span>
+            	<span></span>
+            </nav>-->
+			</div>
+			<!-- /slider-wrapper -->
+		</section>
+		<!--
+        End Home SliderEnd
+        ==================================== -->
+		<!-- Key Guests section -->
+		<section id="about">
+			<div class="container">
+				<div class="row key-guest-row">
+					<div class="sec-title text-center">
+						<h1 class="wow animated bounceInLeft">Key Guests</h1>
+					</div>
+				</div>
+				<div class="row"> 
+					<div class="col-md-6 wow animated fadeInLeft key-guest-sec-img">
+						 <img src="img/custom/key-guests-1.jpg" alt="Swami Mukundanada" style="width:100%; height:100%">
+					</div>
+					<div class="col-md-6 col-md-offset-1 wow animated fadeInRight key-guest-sec-text">
+						<div class="key-guest-card-text">
+							<h3>Swami Mukundananda</h3>
+							<p>Swami Mukundananda is an international authority on mind management and a unique saint with a distinguished educational background. He received his degrees from two world-renowned institutes, IIT and IIM. He left a promising professional career at the tender age of 23 to dedicate himself fully to the spiritual and holistic betterment of others.</br></br>Swamiji is a direct disciple of Jagadguru Shri Kripaluji Maharaj, the fifth original Jagadguru in Indian history. He has founded JKyog, a nonprofit organization dedicated to the betterment of humankind. Swamiji is on a divine mission to help people lead truly successful lives. Using his educational and corporate background, he has an exceptional ability to teach the wisdom of the ancient scriptures in the context of our modern life. </p>
+							<!--<a href="#" class="btn btn-border btn-effect pull-right">Read More</a>--></div>
+					</div>
+				</div>
+				<div class="row key-guest-sec-row">
+					<div class="col-md-4 wow animated fadeInLeft key-guest-sec-img">
+						<div class="img"> <img src="img/custom/Sruthi-Balamurali.jpg" alt="Swami Mukundanada" style="width:100%; height:100%"> </div>
+						<div class="key-guest-card-text">
+							<h4>Sruthi Balamurali</h4>
+							<p>Sruthi Balamurali is a renowned multi-instrumentalist, singer and Bharatanatyam dancer who is currently pursuing her undergraduate degree at the University of Toronto, in the Double Degree program. Being trained in Carnatic music by her father and guru Shri T.N. Balamurali, Sruthi is well versed on Vocal, Violin, Veena and Flute, as well as Western Classical Vocal, Flute and Piano. She has earned a large international audience across her social media platforms and earned millions of views for her productions on YouTube. She made her debut in the Indian film music industry as a violinist through music composer D Imman, for the hit film NAMMA VEETTU PILLAI. She has been honored with many awards including BEST INSTRUMENTALIST and INSTRUMENTAL SUPERSTAR 2020. Sruthi has performed on numerous stages in Canada, United States and India, and has received multiple awards from several media and organizations. Sruthi has had the privilege of sharing the stage with numerous legendary artists such as Dr. KJ Yesudas, P. Susheela and P. Unnikrishnan, to name a few, and has been commended by all of them for her outstanding talents. </p>
+						</div>
+					</div>
+					<div class="col-md-4 wow animated key-guest-sec-img">
+						<div class="img"> <img src="img/custom/Sparsh-Rupesh-Koyelot.jpg" alt="Swami Mukundanada" style="width:100%; height:100%"> </div>
+						<div class="key-guest-card-text">
+							<h4>Sparsh Rupesh Koyelot</h4>
+							<p>Sparsh Rupesh Koyelot is a 10 year old child prodigy. Sparsh holds the world record for the youngest magician. He is also the title winner of Jadu Utsav 2018, Jantar Mantar 2018 and Taj Magic Festival 2018. He has also carved his name in the Indian Book of records for the most number of magicians performing together. He was accompanied by 199 co-magicians! At this tender age, Sparsh performs amazing magic tricks and puts everyone in awe. Till date he has witnessed 80 magic shows. Interestingly, his parents are magicians as well. His father Rupesh Koyelot and mother Kranti Koyelot perform extensively in various cities. </p>
+						</div>
+					</div>
+					<div class="col-md-4 wow animated fadeInRight key-guest-sec-img">
+						<div class="img"> <img src="img/custom/Devesh-Mirchandani.jpg" alt="Swami Mukundanada" style="width:100%; height:100%"> </div>
+						<div class="key-guest-card-text">
+							<h4>Devesh Mirchandani</h4>
+							<p>Devesh Mirchandani is a star dancer, choreographer and a dance instructor. He is a disciple of Guru Pt.Birju ji Maharaj. Devesh is a Bollywood dance choreographer and a part of the Indian Film Dance Directors Association. Devesh is a perfectionist and is proficient in multiple dance styles such as Jazz, Kathak, Bollywood, Contemporary and Salsa. He has choreographed various masterpieces for reality shows such as Just Dance, Dance India Dance, and Dil Se Nache Indiawale. He has also conducted workshops at Dance With Madhuri and his choreographers are power-packed with superb moves and expressions. He also runs the Devesh Mirchandani Dance Academy at Mumbai. Devesh conducts online and in-person workshops. He has been in the dance industry now for 22 years and has also been teaching for 22 years. His every move is filled with energy, passion and precision. He is a Social Media influencer with a combined following of more than 2 million followers.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end about section -->
+		<!-- List Of Contests section -->
+		<section id="contests">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="sec-title text-center">
+						<h2 class="wow animated bounceInLeft">List Of Contests</h2>
+						<p class="wow animated bounceInRight">More Than 50 Unique, Age Appropriate Contests For Children, Youth, Adults And Senior Citizens!</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-xs-12 wow animated zoomIn list-of-contests" data-wow-delay="0s"> <img src="img/custom/card1.jpg" alt="Swami Mukundanada" style="width:100%; height:390px; border-radius: 20px;">
+						<div class="card-info-item service-item">
+							<h3>Performing Arts Solo</h3>
+							<ul>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Fancy Dress</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Eco Dress</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Singing</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Dance</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Musical Instruments</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Bhajan</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Yoga</span></li>
+							</ul>
+							<div class="btn-card" style="margin-left:125px;"> <a href="#" class="btn btn-blue btn-effect rules-cls">RULES</a> </div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 wow animated zoomIn list-of-contests" data-wow-delay="0s"> <img src="img/custom/card2.png" alt="Swami Mukundanada" style="width:100%; height:390px; border-radius: 20px;">
+						<div class="card-info-item service-item">
+							<h3>Performing Arts Group</h3>
+							<ul>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Singing</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Dancing</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Musical Instruments</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Skit</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Jhanki</span></li>
+							</ul>
+							<div class="btn-card" style="margin-left:125px;"> <a href="#" class="btn btn-blue btn-effect rules-cls">RULES</a> </div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 wow animated zoomIn list-of-contests" data-wow-delay="0s"> <img src="img/custom/card3.png" alt="Swami Mukundanada" style="width:100%; height:390px; border-radius: 20px;">
+						<div class="card-info-item service-item">
+							<h3>Visual Arts</h3>
+							<ul>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Coloring</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Pencil Sketching</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Drawing</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Varli Art</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Madhubani Art</span></li>
+							</ul>
+							<div class="btn-card" style="margin-left:125px;"> <a href="#" class="btn btn-blue btn-effect rules-cls">RULES</a> </div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 wow animated zoomIn list-of-contests" data-wow-delay="0s"> <img src="img/custom/card4.png" alt="Swami Mukundanada" style="width:100%; height:390px; border-radius: 20px;">
+						<div class="card-info-item service-item">
+							<h3>Speech</h3>
+							<ul>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Impromptu</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Prepared</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Hindi Speech</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Tamil Speech</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Telugu Speech</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Gujarati Speech</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Bengali Speech</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Powerpoint Presentation</span></li>
+							</ul>
+							<div class="btn-card" style="margin-left:125px;"> <a href="#" class="btn btn-blue btn-effect rules-cls">RULES</a> </div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 wow animated zoomIn list-of-contests" data-wow-delay="0s"> <img src="img/custom/card4.png" alt="Creative Expression" style="width:100%; height:390px; border-radius: 20px;">
+						<div class="card-info-item service-item">
+							<h3>Creative Expression</h3>
+							<ul>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Chalk Art</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Rangoli</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Henna</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">3D Model</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Sculptor</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Origami</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">LEGO</span></li>
+							</ul>
+							<div class="btn-card" style="margin-left:125px;"> <a href="#" class="btn btn-blue btn-effect rules-cls">RULES</a> </div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 wow animated zoomIn list-of-contests" data-wow-delay="0s"> <img src="img/custom/card3.png" alt="Quizzes" style="width:100%; height:390px; border-radius: 20px;">
+						<div class="card-info-item service-item">
+							<h3>Quizzes</h3>
+							<ul>
+								<li class="fa fa-dot-circle-o"><span class="card-text">My Best Friend Krishna</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Ramayan</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Mahabharat</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Essence of HInduism</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Spiritual Dialectics</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">IQ Quiz</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Math Quiz</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Shloka by Meaning</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Knowledge Quiz</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Spelling</span></li>
+							</ul>
+							<div class="btn-card" style="margin-left:125px;"> <a href="#" class="btn btn-blue btn-effect rules-cls">RULES</a> </div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 wow animated zoomIn list-of-contests" data-wow-delay="0s"> <img src="img/custom/card1.jpg" alt="Digital Arts" style="width:100%; height:390px; border-radius: 20px;">
+						<div class="card-info-item service-item">
+							<h3>Literary Arts</h3>
+							<ul>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Creative Writing</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Literary</span></li>
+							</ul>
+							<h3>Recitation</h3>
+							<ul>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Shloka</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Bhagavad Gita</span></li>
+							</ul>
+							<div class="btn-card" style="margin-left:125px;"> <a href="#" class="btn btn-blue btn-effect rules-cls">RULES</a> </div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 wow animated zoomIn list-of-contests" data-wow-delay="0s"> <img src="img/custom/card2.png" alt="Swami Mukundanada" style="width:100%; height:390px; border-radius: 20px;">
+						<div class="card-info-item service-item">
+							<h3>Digital Arts</h3>
+							<ul>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Digital Poster</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Digital Video</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Photography Contest</span></li>
+							</ul>
+							<h3>Strategy Contests</h3>
+							<ul>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Chess</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Innovation</span></li>
+								<li class="fa fa-dot-circle-o"><span class="card-text">Coding</span></li>
+							</ul>
+							<div class="btn-card" style="margin-left:125px;"> <a href="#" class="btn btn-blue btn-effect rules-cls">RULES</a> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end List of contets section -->
+		<!-- Event Highlights section -->
+		<section id="events">
+			<div class="container-fluid">
+				<div class="row key-guests-sec-row">
+					<div class="sec-title text-center">
+						<h2 class="wow animated bounceInLeft">Event Highlights</h2> </div>
+					<div class="col-md-6 wow animated fadeInLeft key-guest-sec-img">
+						<div class="events-text">
+							<li>Age Appropriate Contests</li>
+							<li>E-Certificates (Sanskriti International) to all the Participation for every contest.</li>
+							<li>Special medals for winners in each contest for each age group.</li>
+							<li><b>Sanskriti Idol</b> title and special prize for each age group. Should have participated in at least 5 contests in order to be eligible for this title.</li>
+							<li>Registration fee – $10 per solo contest / $5 per contestant for group.</li>
+							<li>Early Bird discount ends on 31st Oct. $5 increase after this date.</li>
+							<li>All proceeds support the education and healthcare needs for the underprivileged in India.</li>
+							<li>Last day of registration is November 21st.</li>
+						</div>
+					</div>
+					<div class="col-md-6 col-md-offset-1 wow animated fadeInRight key-guest-sec-text">
+						<div class="event-video">
+							<iframe class="events-video-sec" width="100%" height="215" src="https://www.youtube.com/embed/OLguHMy79hk?autoplay=0&mute=1&rel=0" frameborder="0" allowfullscreen> </iframe>
+							<!--<div id="works">
+									<div class="work-item">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> <br> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+									</div>
+									<div class="work-item">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br><br> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+									</div>
+									<div class="work-item">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br><br> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+									</div>
+								</div>--></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Event Highlights section -->
+		<!-- Glimpses section -->
+		<section id="glimpses">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="sec-title text-center wow animated fadeInDown">
+						<h2>Glimpses</h2> 
+					</div>
+					</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="carousel"style="margin-bottom: 20px;">
+							<ol class="carousel-indicators">
+								<li data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></li>
+								<li data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></li>
+								<li data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="carousel-item active"> <img src="img/custom/slide1.jpg" class="d-block w-100" alt="..."> </div>
+								<div class="carousel-item"> <img src="img/custom/slide2.jpg" class="d-block w-100" alt="..."> </div>
+								<div class="carousel-item"> <img src="img/custom/slide7.jpg" class="d-block w-100" alt="..."> </div>
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span> </button>
+							<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span> </button>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="margin-bottom: 20px;">
+							<ol class="carousel-indicators">
+								<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></li>
+								<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></li>
+								<li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="carousel-item active"> <img src="img/custom/slide5.jpg" class="d-block w-100" alt="..."> </div>
+								<div class="carousel-item"> <img src="img/custom/slide6.jpg" class="d-block w-100" alt="..."> </div>
+								<div class="carousel-item"> <img src="img/custom/slide8.jpg" class="d-block w-100" alt="..."> </div>
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span> </button>
+							<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span> </button>
+						</div>
+						<div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></li>
+								<li data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></li>
+								<li data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="carousel-item active"> <img src="img/custom/slide9.jpg" class="d-block w-100" alt="..."> </div>
+								<div class="carousel-item"> <img src="img/custom/slide10.jpg" class="d-block w-100" alt="..."> </div>
+								<div class="carousel-item"> <img src="img/custom/slide11.jpg" class="d-block w-100" alt="..."> </div>
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span> </button>
+							<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span> </button>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</section>
+		<!-- end Glimpses section -->
+		<!-- Testimonial section -->
+		<section>
+			<div class="container">
+			<div class="testimonials">
+				<div class="inner">
+					<div class="sec-title text-center">
+						<h2 style="color:black; font-size:40px; font-weight: 500;">Testimonials</h2> </div>
+						<div class="row">
+							<div class="col-md-4 testimonials-main-card">
+								<div class="testimonial">
+								<img style="width:175px; border-radius: 15px 15px 15px 15px;" src="img/custom/Sanchaya-Vibranarayanan.jpg" alt="">
+									<div class="clearfix"> <span class="testimonial-heading" style="color: #3F3F3F;font-weight: 600;">Sanchaya Vibranarayanan</span>
+									<p class="content">What an amazing experience! This is a fantastic opportunity for students like us to showcase our talents. I am really happy to have participated in different contests and have won many awards last year. I will definitely encourage all my friends to participate in Sanskriti international contests every year. Thank you for an unforgettable experience. GREAT EVENT! </p>
+								</div>
+								<div class="fa-sharp fa-solid fa-quote-right testimonials-quote"> </div>
+								</div>
+							</div>
+							<div class="col-md-4 testimonials-main-card">
+								<div class="testimonial">
+									<img style="width:175px; border-radius: 15px 15px 15px 15px;" src="img/custom/Abhijit-Wadhwekar.jpg" alt="">
+									<div class="clearfix"> <span class="testimonial-heading" style="color: #3F3F3F;font-weight: 600;">Sanchaya Vibranarayanan</span>
+									<p class="content">Sanskriti International is an excellent avenue to encourage young talent. It is a great platform for youth to participate in contests, and provides them opportunities to showcase their skills and learn more about Indian culture and values. My daughter thoroughly enjoyed participating in these contests. It was very motivating for her to prepare and to be able to relate to other children in her age group, with similar cultural backgrounds.</p>
+								</div>
+								<div class="fa-sharp fa-solid fa-quote-right testimonials-quote"> </div>
+								</div>
+							</div>
+							<div class="col-md-4 testimonials-main-card">
+								<div class="testimonial">
+									<img  style="width:175px; border-radius: 15px 15px 15px 15px;" src="img/custom/Punam-Parekh.jpg" alt="">
+									<div class="clearfix"> <span class="testimonial-heading" style="color: #3F3F3F;font-weight: 600;">Sanchaya Vibranarayanan</span>
+									<p class="content">My daughter participated in quiz contest and yoga contest during sanskriti international 2020. It was the first time she participated in any cultural contest. As a parent I was very happy seeing her excitement and awards she got. I am looking forward to enroll my both kids this year.</p>
+								</div>
+								<div class="fa-sharp fa-solid fa-quote-right testimonials-quote"> </div>
+								</div>
+							</div>
+						</div>
+					
+				</div>
+			</div>
+		</div>
+		</section>
+		<!-- end Testimonial section -->
+		<!-- Social section -->
+		<!--<section id="social" class="parallax">
+				<div class="overlay">
+					<div class="container">
+						<div class="row">
+							
+							<div class="sec-title text-center white wow animated fadeInDown">
+								<h2>FOLLOW US</h2>
+								<p>Beautifully simple follow buttons to help you get followers on</p>
+							</div>
+							
+							<ul class="social-button">
+								<li class="wow animated zoomIn"><a href="#"><i class="fa fa-thumbs-up fa-2x"></i></a></li>
+								<li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+								<li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="#"><i class="fa fa-dribbble fa-2x"></i></a></li>							
+							</ul>
+							
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- end Social section -->
+	</main>
+	<footer id="footer">
+		<div class="container">
+			<div class="row text-center">
+				<div class="footer-content">
+					<div class="wow animated fadeInDown"> </div>
+					<!--<form action="#" method="post" class="subscribe-form wow animated fadeInUp">
+							<div class="input-field">
+								<input type="email" class="subscribe form-control" placeholder="Enter Your Email...">
+								<button type="submit" class="submit-icon">
+									<i class="fa fa-paper-plane fa-lg"></i>
+								</button>
+							</div>
+						</form>-->
+					<div class="footer-social">
+						<ul>
+							<li class="wow animated zoomIn"><a class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="#!" role="button"><i class="fa fa-facebook"></i
+      ></a></li>
+							<li class="wow animated zoomIn" data-wow-delay="0.3s"><a class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="#!" role="button"><i class="fa fa-twitter"></i
+      ></a></li>
+							<li class="wow animated zoomIn" data-wow-delay="0.6s"><a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="#!" role="button"><i class="fa fa-google"></i
+      ></a></li>
+							<li class="wow animated zoomIn" data-wow-delay="0.9s">
+								<a href="" class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" role="button"> <i class="fa fa-youtube-play"></i> </a>
+							</li>
+						</ul>
+					</div>
+					<p>Copyright &copy; 2022 Sanskriti.jkyog.org and Developed By <a href="http://www.ipowerfour.com/" target="_blank">iPowerFour </a> </p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<section class="winners">
+		<table class="table table-sortable"></table>
+	</section>
+	<!-- Essential jQuery Plugins
+			================================================== -->
+	<!-- Main jQuery -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<!-- Twitter Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Single Page Nav -->
+	<script src="js/jquery.singlePageNav.min.js"></script>
+	<!-- jquery.fancybox.pack -->
+	<script src="js/jquery.fancybox.pack.js"></script>
+	<!-- Owl Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- jquery easing -->
+	<script src="js/jquery.easing.min.js"></script>
+	<!-- Fullscreen slider -->
+	<script src="js/jquery.slitslider.js"></script>
+	<script src="js/jquery.ba-cond.min.js"></script>
+	<!-- onscroll animation -->
+	<script src="js/wow.min.js"></script>
+	<!-- Custom Functions -->
+	<script src="js/main.js"></script>
+	<script>
+	var TxtType = function(el, toRotate, period) {
+		this.toRotate = toRotate;
+		this.el = el;
+		this.loopNum = 0;
+		this.period = parseInt(period, 10) || 2000;
+		this.txt = "";
+		this.tick();
+		this.isDeleting = false;
+	};
+	TxtType.prototype.tick = function() {
+		var i = this.loopNum % this.toRotate.length;
+		var fullTxt = this.toRotate[i];
+		if(this.isDeleting) {
+			this.txt = fullTxt.substring(0, this.txt.length - 1);
+		} else {
+			this.txt = fullTxt.substring(0, this.txt.length + 1);
+		}
+		this.el.innerHTML = '<span class="wrap" style="color:#27B235; font-weight:600">' + this.txt + "</span>";
+		var that = this;
+		var delta = 200 - Math.random() * 100;
+		if(this.isDeleting) {
+			delta /= 2;
+		}
+		if(!this.isDeleting && this.txt === fullTxt) {
+			delta = this.period;
+			this.isDeleting = true;
+		} else if(this.isDeleting && this.txt === "") {
+			this.isDeleting = false;
+			this.loopNum++;
+			delta = 500;
+		}
+		setTimeout(function() {
+			that.tick();
+		}, delta);
+	};
+	window.onload = function() {
+		var elements = document.getElementsByClassName("typewrite");
+		for(var i = 0; i < elements.length; i++) {
+			var toRotate = elements[i].getAttribute("data-type");
+			var period = elements[i].getAttribute("data-period");
+			if(toRotate) {
+				new TxtType(elements[i], JSON.parse(toRotate), period);
+			}
+		}
+		// INJECT CSS
+		var css = document.createElement("style");
+		css.type = "text/css";
+		css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+		document.body.appendChild(css);
+	};
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+@media (max-width: 650px) {
+.sec-title { margin-bottom: 10px; }
+#mainNav { background-color: #203864 !important;}
+ul {
+    word-break: break-all;
+}
+/* key dates css */
+.key-dates-sec-title {
+    font-weight: 500;
+    font-size: 41.7px;
+    color: #3A3A3A;
+}
+.elementor-heading-title {
+    font-size: 22px;
+    font-weight: 300;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    line-height: 1;
+    color: #3A3A3A;
+}
+.btn-xl {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.key-dates-info-box-title {
+    color: #656565;
+    font-size: 16px;
+}
+.box-body > p {
+    color: #000000;
+    font-size: 22px;
+}
+}

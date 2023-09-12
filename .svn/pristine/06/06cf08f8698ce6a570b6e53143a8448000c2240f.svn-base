@@ -1,0 +1,39 @@
+global-styling:  
+  css:
+    theme:
+      css/font-awesome.min.css: {}
+      css/jquery.fancybox.css: {}
+      css/bootstrap.min.css: {}
+      css/owl.carousel.css: {}
+      css/slit-slider.css: {}
+      css/animate.css: {}
+      css/main.css: {}
+      css/custom.css: {}
+      
+      
+
+      
+      
+        
+global-js:
+  js:
+    js/modernizr-2.6.2.min.js: {}
+    js/jquery-1.11.1.min.js: {}
+    js/bootstrap.min.js: {}
+    js/jquery.singlePageNav.min.js: {}
+    js/jquery.fancybox.pack.js: {}
+    js/owl.carousel.min.js: {}
+    js/jquery.easing.min.js: {}
+    js/jquery.slitslider.js: {}
+    js/jquery.ba-cond.min.js: {}
+    js/wow.min.js: {}
+    js/main.js: {}
+    js/custom.js: {}
+    
+
+
+    
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings

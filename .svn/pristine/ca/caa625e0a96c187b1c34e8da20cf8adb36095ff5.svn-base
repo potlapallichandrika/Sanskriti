@@ -1,0 +1,33 @@
+<div data-elementor-type="header" data-elementor-id="6022" class="elementor elementor-6022 elementor-location-header">
+	<div class="elementor-section-wrap">
+		<section class="elementor-section elementor-top-section elementor-element elementor-element-a71bb63 elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="a71bb63" data-element_type="section">
+					<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-f600a8f" data-id="f600a8f" data-element_type="column">
+		          <div class="elementor-widget-wrap elementor-element-populated">
+				<div class="elementor-element elementor-element-1f6dd01 elementor-widget elementor-widget-image" data-id="1f6dd01" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+				<img width="150" height="150" src="assets/images/uploads/2021/09/Sanskriti-Logo-1-modified-75x75.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" srcset="assets/images/uploads/2021/09/Sanskriti-Logo-1-modified-150x150.png 150w, assets/images/uploads/2021/09/Sanskriti-Logo-1-modified-300x300.png 300w, assets/images/uploads/2021/09/Sanskriti-Logo-1-modified-75x75.png 75w, assets/images/uploads/2021/09/Sanskriti-Logo-1-modified.png 503w" sizes="(max-width: 150px) 100vw, 150px" />															
+				</div>
+				</div>
+				</div>
+	            </div>
+			<div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-cc8b1b3" data-id="cc8b1b3" data-element_type="column">
+		    <div class="elementor-widget-wrap elementor-element-populated">
+			<div class="elementor-element elementor-element-d8df8ac elementor-nav-menu__align-center elementor-nav-menu--dropdown-none elementor-widget elementor-widget-nav-menu" data-id="d8df8ac" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+			<div class="elementor-widget-container">
+					 {# Menu. #}
+			  {% block content %}
+				{{ content }}
+			  {% endblock %}		
+			
+			<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+		<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>			<span class="elementor-screen-only">Menu</span>
+	</div>
+	</div>
+	</div>
+		</div>
+	</div>
+		</div>
+	</section>
+			</div>
+	</div>

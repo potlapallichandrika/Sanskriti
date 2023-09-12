@@ -1,0 +1,60 @@
+<?php 
+use Drupal\views\ViewExecutable;
+/**
+ * Implements hook_preprocess_block().
+ */
+use \Drupal\block_content\BlockContentInterface;
+use \Drupal\image\Entity\ImageStyle;
+
+function sanskriti_preprocess_block(&$variables) {
+    $content = $variables['elements']['content'];
+      if (isset($content['#block_content']) && $content['#block_content'] instanceof BlockContentInterface) {
+        $block_bundle = $content['#block_content']->bundle();  
+        if ($content['#block_content']->bundle() == 'rules'  ) {
+            $field_contests = $content['#block_content']->get('field_contests');
+            $field_contests_array = $field_contests->referencedEntities();
+            $allItems = [];
+            foreach($field_contests_array as $term) {
+              $singleItem = [];
+              $singleItem['id'] = $term->id();
+              $singleItem['name'] = $term->getName();
+              $singleItem['parent'] = $term->parent->target_id;
+              if($term->parent->target_id == 0)
+                $allItems[$term->id()] = $singleItem;
+              else
+                $allItems[$term->parent->target_id]['subitems'][] = $singleItem;
+            }
+            $variables['allSelectedTerms'] = $allItems;
+        }        
+      }         
+}
+function sanskriti_theme_suggestions_block_alter(array &$suggestions, array $variables) {
+    // Add content type suggestions
+    $element = $variables['elements'];
+
+    if (!empty($element['content']['#block_content'])) {
+        $block_bundle = $element['content']['#block_content']->bundle();
+        $suggestions_name = 'block__block_content__' . $block_bundle;
+        array_splice($suggestions, -2, 0, $suggestions_name);
+    }
+}
+/**
+ * Implements hook_theme_suggestions_page_alter().
+ */
+function sanskriti_theme_suggestions_page_alter(array &$suggestions, array $variables) {
+  if ($node = \Drupal::routeMatch()->getParameter('node')) {
+	  if($node && $node->bundle() == 'faq_list_page') {
+		$suggestions[] = 'page__' . $node->bundle();
+	  }
+  }
+}
+
+
+function sanskriti_preprocess(&$variables) {
+	
+  $config = \Drupal::config('sanskriti_module.admin_settings_form');
+  $variables['glimpses_title_head'] = $config->get('glimpses_title_head');
+  $variables['is_front'] = \Drupal::service('path.matcher')->isFrontPage();	 
+}
+
+?>

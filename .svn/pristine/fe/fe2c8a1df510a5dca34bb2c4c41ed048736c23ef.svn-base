@@ -1,0 +1,230 @@
+<style type="text/css">
+      table,
+      th,
+      td {
+        border: 6px solid white;
+        border-collapse: collapse;
+      }
+      table {
+        border-collapse: separate;
+        border-spacing: 0;
+        border-width: 1px 0 0 1px;
+        margin: 0 0 1.5em;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+      }
+      td {
+        background-color: #e7e9eb !important;
+        border: 1px solid rgba(0, 0, 0, 0.1) !important;
+        vertical-align: middle !important;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+      }
+      th {
+        text-align: center;
+        background-color: #203864 !important;
+        color: white;
+        font-size: 16px; 
+        font-weight: 700;
+		border: 1px solid rgba(0,0,0,.1) ;
+		padding: 8px !!important;
+		border-width: 0 1px 1px 0 !important;
+		border-bottom-color: rgba(0,0,0,.1) !important;
+      }
+	  tbody tr td li a{
+	  color:#1a6c7a !important;
+	  text-decoration:none !important;
+	  }
+      @media (max-width: 992px) {
+        .table,
+        .table tbody,
+        .table tr,
+        .table td {
+          display: block;
+          width: 100%;
+          text-align: center;
+        }
+        .table tr {
+          margin-bottom: 10px;
+        }
+        .table tbody tr td {
+          text-align: left;
+          padding-left: 50%;
+          position: relative;
+        }
+        .table td:before {
+          content: attr(data-label);
+          position: absolute;
+          left: 0;
+          width: 50%;
+          padding-left: 15px;
+          font-weight: 600;
+          font-size: 14px;
+          text-align: left;
+        }
+        .b,
+        strong {
+          font-family: Arial, Helvetica, sans-serif;
+          color: black;
+        }
+      }
+    </style>  
+    <section class="rules-sec">
+      <div class="container">
+        <div class="navbar" style="background-color: #e7e9eb; margin-top: 20px">
+          <div class="subnav">
+            <button
+              class="subnavbtn tablink w3-red"
+              onclick="openCity(event,'All')"
+            >
+              All
+            </button>
+          </div>
+          <div class="subnav">
+            <button class="subnavbtn">
+              Contests by Age Group <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="subnav-content">
+              <button
+                class="subnav-content-btn tablink"
+                onclick="openCity(event,'Group 1')"
+              >
+                Group 1
+              </button>
+              <button
+                class="subnav-content-btn tablink"
+                onclick="openCity(event,'Group 2')"
+              >
+                Group 2
+              </button>
+              <button
+                class="subnav-content-btn tablink"
+                onclick="openCity(event,'Group 3')"
+              >
+                Group 3
+              </button>
+              <button
+                class="subnav-content-btn tablink"
+                onclick="openCity(event,'Group 4')"
+              >
+                Group 4
+              </button>
+              <button
+                class="subnav-content-btn tablink"
+                onclick="openCity(event,'Group 5')"
+              >
+                Group 5
+              </button>
+              <button
+                class="subnav-content-btn tablink"
+                onclick="openCity(event,'Group 6')"
+              >
+                Group 6
+              </button>
+            </div>
+          </div>
+          <div class="subnav">
+            <button class="subnavbtn">
+              Contests by Category <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="subnav-content">
+              <button
+                class="subnav-content-btn tablink"
+                onclick="openCity(event,'Performing-Solo')"
+              >
+                Performing-Solo
+              </button>
+              <button
+                class="subnav-content-btn tablink"
+                onclick="openCity(event,'Group')"
+              >
+                Group
+              </button>
+              <button
+                class="subnav-content-btn tablink"
+                onclick="openCity(event,'Visual')"
+              >
+                Visual
+              </button>
+              <button
+                class="subnav-content-btn tablink"
+                onclick="openCity(event,'Speech')"
+              >
+                Speech
+              </button>
+              <button
+                class="subnav-content-btn tablink"
+                onclick="openCity(event,'Creative Arts')"
+              >
+                Creative Arts
+              </button>
+              <button
+                class="subnav-content-btn tablink"
+                onclick="openCity(event,'Quizzes')"
+              >
+                Quizzes
+              </button>
+              <button
+                class="subnav-content-btn tablink"
+                onclick="openCity(event,'Literary')"
+              >
+                Literary
+              </button>
+              <button
+                class="subnav-content-btn tablink"
+                onclick="openCity(event,'Recitation')"
+              >
+                Recitation
+              </button>
+              <button
+                class="subnav-content-btn tablink"
+                onclick="openCity(event,'Digital Arts')"
+              >
+                Digital Arts
+              </button>
+              <button
+                class="subnav-content-btn tablink"
+                onclick="openCity(event,'Stratergic')"
+              >
+                Stratergic
+              </button>
+            </div>
+          </div>
+        </div>
+		
+		{# table above description #}
+      {{ content.body[0] | raw }}
+	  
+        <div class="tablecontainer">
+         	{# All tabs  description #}
+      {{ content.field_all_tab_section[0] | raw }}
+{# tables ids description #}
+       {% for row in content.field_contests['#items'] %}
+     {{ row.entity.field_table_description.value| raw }}
+
+
+{% endfor %}
+          
+        
+        </div>
+      </div>
+    </section>
+	
+	 {#chess rules des #}
+{{ content.field_chess_rules_des[0] | raw }}
+
+  <script>
+    function openCity(evt, cityName) {
+      var i, x, tablinks;
+      x = document.getElementsByClassName("city");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < x.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " w3-red";
+    }
+  </script>
+

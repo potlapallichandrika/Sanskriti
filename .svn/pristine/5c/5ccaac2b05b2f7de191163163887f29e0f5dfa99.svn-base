@@ -1,0 +1,15 @@
+uuid: 01d2f6b3-86b8-469a-96ef-b0a046ac0a8a
+langcode: en
+status: false
+dependencies: {  }
+id: prod
+label: Prod
+description: ''
+weight: 0
+folder: sites/default/files/config_sanskriti/prod
+module: {  }
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true

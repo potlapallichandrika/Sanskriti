@@ -1,0 +1,58 @@
+
+<section class="elementor-section elementor-top-section elementor-element elementor-element-c1be0a9 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="c1be0a9" data-element_type="section" id="contests">
+					<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e0ede3c" data-id="e0ede3c" data-element_type="column">
+		<div class="elementor-widget-wrap elementor-element-populated">
+		<div class="elementor-element elementor-element-7a9d367 elementor-widget elementor-widget-heading" data-id="7a9d367" data-element_type="widget" data-widget_type="heading.default">
+		<div class="elementor-widget-container">
+		<h1 class="elementor-heading-title elementor-size-default">{{ content.field_title[0] | raw}}</h1>		
+		</div>
+			</div>
+			<div class="elementor-element elementor-element-c86fd56 elementor-widget elementor-widget-heading" data-id="c86fd56" data-element_type="widget" data-widget_type="heading.default">
+			<div class="elementor-widget-container">
+		<h1 class="elementor-heading-title elementor-size-default">{{content.field_short_desc[0] | raw}}</h1>		</div>
+			</div>
+<section class="elementor-section elementor-inner-section elementor-element elementor-element-37ce35a elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="37ce35a" data-element_type="section">
+			{% for temp in content.field_list_of_contests['#items'] |batch(4) %}
+			<div class="elementor-container elementor-column-gap-default">
+			 {% for var in temp %}
+			<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-08eeb54" data-id="08eeb54" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		   <div class="elementor-widget-wrap elementor-element-populated">
+		  
+			<div class="elementor-background-overlay"></div>
+			<div class="elementor-element elementor-element-fef7e78 elementor-widget elementor-widget-heading" data-id="fef7e78" data-element_type="widget" data-widget_type="heading.default">
+		<div class="elementor-widget-container">
+		<h1 class="elementor-heading-title elementor-size-default">{{ var.entity.field_title.value | raw }}</h1>		</div>
+			</div>
+			<div class="elementor-element elementor-element-36101f8 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="36101f8" data-element_type="widget" data-widget_type="icon-list.default">
+			<div class="elementor-widget-container">
+			{{ var.entity.field_description.value | raw }}
+			</div>
+			</div>
+			<div class="elementor-element elementor-element-9a56f8c elementor-align-center elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="9a56f8c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="button.default">
+			<div class="elementor-widget-container">
+			{% if var.entity.field_button_text.value %}
+				<div class="elementor-button-wrapper">
+		<a href="{{ var.entity.field_button_link.value }}" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+					<span class="elementor-button-content-wrapper">
+					<span class="elementor-button-text">{{ var.entity.field_button_text.value }}</span>
+	</span>
+				</a>
+	</div>
+	{% endif %}
+			</div>
+			</div>
+			</div>
+			
+	</div>
+		{% endfor %}	
+	</div>
+		{% endfor %}
+	</section>
+	
+	
+			
+				</div>
+	</div>
+						</div>
+	</section>

@@ -1,0 +1,66 @@
+<div data-elementor-type="wp-page" data-elementor-id="2167" class="elementor elementor-2167">
+<section class="elementor-section elementor-top-section elementor-element elementor-element-e0b4ded elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="e0b4ded" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-background-overlay">
+						</div>
+						<div class="elementor-container elementor-column-gap-no">
+				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5550603" data-id="5550603" data-element_type="column">
+		<div class="elementor-widget-wrap elementor-element-populated">
+		<div class="elementor-element elementor-element-b523185 elementor-widget elementor-widget-heading" data-id="b523185" data-element_type="widget" data-widget_type="heading.default">
+		<div class="elementor-widget-container">
+		<h1 class="elementor-heading-title elementor-size-default">Sanskriti</h1>		</div>
+			</div>
+			<div class="elementor-element elementor-element-188447c elementor-widget elementor-widget-heading" data-id="188447c" data-element_type="widget" data-widget_type="heading.default">
+			<div class="elementor-widget-container">
+		<h1 class="elementor-heading-title elementor-size-default">International</h1>		</div>
+			</div>
+			<div class="elementor-element elementor-element-7c0bc8b elementor-widget elementor-widget-eael-fancy-text" data-id="7c0bc8b" data-element_type="widget" data-widget_type="eael-fancy-text.default">
+			<div class="elementor-widget-container">
+		
+            <div  class="eael-fancy-text-container style-1" data-fancy-text-id="7c0bc8b" data-fancy-text="|A Cultural Extravaganza for a Cause!" data-fancy-text-transition-type="typing" data-fancy-text-speed="75" data-fancy-text-delay="4000" data-fancy-text-cursor="" data-fancy-text-loop="yes" >
+	
+	
+				<span id="eael-fancy-text-7c0bc8b" class="eael-fancy-text-strings solid-color">
+			<noscript>
+				A Cultural Extravaganza for a Cause!				</noscript>
+		</span>
+	
+				<span class="eael-fancy-text-suffix">  </span>
+		</div><!-- close .eael-fancy-text-container -->
+
+          
+		 <div class="clearfix"></div>
+
+		</div>
+			</div>
+			<div class="elementor-element elementor-element-6382079 elementor-widget elementor-widget-spacer" data-id="6382079" data-element_type="widget" data-widget_type="spacer.default">
+			<div class="elementor-widget-container">
+			<div class="elementor-spacer">
+		<div class="elementor-spacer-inner"></div>
+	</div>
+			</div>
+			</div>
+			<div class="elementor-element elementor-element-7223815 elementor-widget elementor-widget-heading" data-id="7223815" data-element_type="widget" data-widget_type="heading.default">
+			<div class="elementor-widget-container">
+		<p class="elementor-heading-title elementor-size-default">Did you miss live Grand Award Ceremony 2021?</p>		</div>
+			</div>
+			<div class="elementor-element elementor-element-483c301 elementor-align-center elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="483c301" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="button.default">
+			<div class="elementor-widget-container">
+				<div class="elementor-button-wrapper">
+		<a href="https://sanskriti.jkyog.org/live/" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+					<span class="elementor-button-content-wrapper">
+					<span class="elementor-button-text">Watch It Now</span>
+	</span>
+				</a>
+	</div>
+			</div>
+			</div>
+			<div class="elementor-element elementor-element-cc27361 elementor-hidden-desktop elementor-widget elementor-widget-image" data-id="cc27361" data-element_type="widget" data-widget_type="image.default">
+			<div class="elementor-widget-container">
+			<img width="1035" height="359" src="themes/custom/sanskriti/images/uploads/2021/10/Badges1.png" class="attachment-full size-full" alt="" loading="lazy" srcset="assets/images/uploads/2021/10/Badges1.png 1035w, assets/images/uploads/2021/10/Badges1-300x104.png 300w, assets/images/uploads/2021/10/Badges1-1024x355.png 1024w, assets/images/uploads/2021/10/Badges1-768x266.png 768w, assets/images/uploads/2021/10/Badges1-600x208.png 600w" sizes="(max-width: 1035px) 100vw, 1035px" />		
+			</div>													
+			</div>
+			</div>
+	</div>
+			</div>
+			</div>
+	</section>

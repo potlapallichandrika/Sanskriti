@@ -1,0 +1,9 @@
+{{ page.promotional_banner }}
+{{page.header}}
+	<div data-elementor-type="wp-page" data-elementor-id="2167" class="elementor elementor-2167">
+{{page.home_page_content}}
+</div>
+<footer
+class="site-footer" id="colophon" itemtype="https://schema.org/WPFooter" itemscope="itemscope" itemid="#colophon">
+		{{ footer }}
+</footer>

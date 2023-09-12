@@ -1,0 +1,83 @@
+<section class="elementor-section elementor-top-section elementor-element elementor-element-6d3c9a3 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="6d3c9a3" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="elementor-container elementor-column-gap-no">
+				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8f4e32f" data-id="8f4e32f" data-element_type="column">
+		<div class="elementor-widget-wrap elementor-element-populated">
+			<section class="elementor-section elementor-inner-section elementor-element elementor-element-67aab10 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="67aab10" data-element_type="section">
+					<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-958e02f" data-id="958e02f" data-element_type="column">
+		<div class="elementor-widget-wrap elementor-element-populated">
+							<div class="elementor-element elementor-element-acd766b elementor-widget elementor-widget-heading" data-id="acd766b" data-element_type="widget" data-widget_type="heading.default">
+			<div class="elementor-widget-container">
+		<h1 class="elementor-heading-title elementor-size-default">Glimpses</h1>		</div>
+			</div>
+				</div>
+	</div>
+						</div>
+	</section>
+			<section class="elementor-section elementor-inner-section elementor-element elementor-element-14f4489 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="14f4489" data-element_type="section">
+				<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1394150" data-id="1394150" data-element_type="column">
+		<div class="elementor-widget-wrap elementor-element-populated">
+		<div class="elementor-element elementor-element-6910e86 elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel" data-id="6910e86" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;autoplay_speed&quot;:3000,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
+			<div class="elementor-widget-container">
+			<div class="elementor-image-carousel-wrapper swiper-container" dir="ltr">
+		   <div class="elementor-image-carousel swiper-wrapper">
+		       {% for temp in content.field_glimpses['#items'] %}
+							<div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="{{ file_url(temp.entity.field_slider_image.entity.uri.value) }}" alt="84995523_2494108224023878_8597281996848234496_n" /></figure></div>
+		   {% endfor %}
+							</div>
+											<div class="swiper-pagination"></div>
+												<div class="elementor-swiper-button elementor-swiper-button-prev">
+					<i aria-hidden="true" class="eicon-chevron-left"></i>						<span class="elementor-screen-only">Previous</span>
+				</div>
+				<div class="elementor-swiper-button elementor-swiper-button-next">
+					<i aria-hidden="true" class="eicon-chevron-right"></i>						<span class="elementor-screen-only">Next</span>
+				</div>
+								</div>
+			</div>
+			</div>
+				</div>
+	</div>
+
+	
+			<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-f17dd5e" data-id="f17dd5e" data-element_type="column">
+		   <div class="elementor-widget-wrap elementor-element-populated">
+			<div class="elementor-element elementor-element-e7c3656 elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel" data-id="e7c3656" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;autoplay_speed&quot;:3000,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
+			    <div class="elementor-widget-container">
+				<div class="elementor-image-carousel-wrapper swiper-container" dir="ltr">
+		         <div class="elementor-image-carousel swiper-wrapper">
+							<div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/09/85117093_2494056567362377_2280200619937497088_n-1-768x512.jpg" alt="85117093_2494056567362377_2280200619937497088_n (1)" /></figure></div>			
+							</div>
+											<div class="swiper-pagination"></div>
+												<div class="elementor-swiper-button elementor-swiper-button-prev">
+					<i aria-hidden="true" class="eicon-chevron-left"></i>						<span class="elementor-screen-only">Previous</span>
+				</div>
+				<div class="elementor-swiper-button elementor-swiper-button-next">
+					<i aria-hidden="true" class="eicon-chevron-right"></i>						<span class="elementor-screen-only">Next</span>
+				</div>
+								</div>
+			</div>
+			</div>
+			<div class="elementor-element elementor-element-df9ec60 elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel" data-id="df9ec60" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;autoplay_speed&quot;:3000,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
+			<div class="elementor-widget-container">
+				<div class="elementor-image-carousel-wrapper swiper-container" dir="ltr">
+		<div class="elementor-image-carousel swiper-wrapper">
+							<div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="assets/images/uploads/2021/09/85025456_2494060087362025_2385063539254493184_n-1-768x545.jpg" alt="85025456_2494060087362025_2385063539254493184_n (1)" /></figure></div>			</div>
+											<div class="swiper-pagination"></div>
+												<div class="elementor-swiper-button elementor-swiper-button-prev">
+					<i aria-hidden="true" class="eicon-chevron-left"></i>						<span class="elementor-screen-only">Previous</span>
+				</div>
+				<div class="elementor-swiper-button elementor-swiper-button-next">
+					<i aria-hidden="true" class="eicon-chevron-right"></i>						<span class="elementor-screen-only">Next</span>
+				</div>
+								</div>
+			</div>
+			</div>
+				</div>
+	</div>
+						</div>
+	</section>
+				</div>
+	</div>
+						</div>
+	</section>

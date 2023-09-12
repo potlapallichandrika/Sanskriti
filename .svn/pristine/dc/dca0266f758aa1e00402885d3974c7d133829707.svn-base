@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Sanskriti International - A cultural extravaganza for a cause!" />
+        <meta name="author" content="" />
+        <title>Sanskriti International - A cultural extravaganza for a cause!</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html#page-top"><img src="assets/img/logo.png" alt="logo" style="height: 60px; width: 60px;"></a> 
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav mx-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contests">Contests</a></li>
+                        <li class="nav-item"><a class="nav-link" href="rules.html">Rules</a></li>
+                        <li class="nav-item"><a class="nav-link" href="winners.html">Winners</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://wa.me/14343856954" target="_blank">Help Desk</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+         <!-- Key Dates-->
+      <section class="page-section bg-light"  id="key-dates">
+	  <div class="container">
+                <div class="row text-center"> 
+                        <h1 class="key-dates-sec-title">Key Dates</h1>
+                        <hr class="divider divider" /> 
+						<p class="elementor-heading-title elementor-size-default">Registration is Open</p>
+                </div>
+				<div class="row text-center"> 
+				<div class="col-md-6 ">
+			<a class="btn btn-primary btn-xl register-button" href="#">Register Now - USA</a></div>
+			<div class="col-md-6">
+				<a class="btn btn-primary btn-xl" href="#">Register Now - India</a></div>
+				</div>
+				</div>
+			
+            
+		<div class="container" id="key-dates-sec">
+		<div class="row">
+		<div class="bird-registration-sec col-lg-3 col-md-6 col-25 text-center bg-white">
+            <div class="sec-title-infobox text-center">
+              <div class="box-header animation-">
+			  <div class="info-box-icon"> <i aria-hidden="true" class="early-bird-infobox-icon icon bi bi-clock "></i>
+			  </div>
+			  </div>
+                <div class="box-body">
+				<h1 class="key-dates-info-box-title"> Early Bird Registration Ends</h1>
+               <p>NOV 5</p>
+              </div>
+            </div>
+          </div>
+		 <div class="bird-registration-sec col-lg-3 col-md-6 col-25 text-center bg-white">
+            <div class="sec-title text-center">
+              <div class="box-header animation-">
+			  <div class="info-box-icon"> <i aria-hidden="true" class="early-bird-infobox-icon icon bi bi-clock "></i>
+			  </div>
+			  </div>
+                <div class="box-body">
+				<h1 class="key-dates-info-box-title">Last Day For Submissions</h1>
+               <p>NOV 27</p>
+              </div>
+            </div>
+          </div>
+		  <div class="bird-registration-sec col-lg-3 col-md-6 col-25 text-center bg-white">
+            <div class="sec-title text-center">
+              <div class="box-header animation-">
+			  <div class="info-box-icon"> <i aria-hidden="true" class="early-bird-infobox-icon icon bi bi-award "></i>
+			  </div>
+			  </div>
+                <div class="box-body">
+				<h1 class="key-dates-info-box-title">Quiz Contest On Zoom</h1>
+               <p><p>DEC 3, 4</p>
+              </div>
+            </div>
+          </div>
+		  <div class="bird-registration-sec col-lg-3 col-md-6 col-25 text-center bg-white">
+            <div class="sec-title text-center">
+              <div class="box-header animation-">
+			  <div class="info-box-icon"> <i aria-hidden="true" class="early-bird-infobox-icon icon bi bi-trophy "></i>
+			  </div>
+			  </div>
+                <div class="box-body">
+				<h1 class="key-dates-info-box-title"> Grand Award Ceremony</h1>
+               <p>DEC 18</p>
+              </div>
+            </div>
+          </div>
+		  </div>
+		  </div>
+		  
+       </section>
+        <!-- Footer-->
+        <footer class="bg-light py-5">
+            <div class="container px-4 px-lg-5">
+			<div class="small text-center text-muted"> <!-- Facebook -->
+
+<!-- Facebook -->
+<a class="btn facebook-icon-cls"  href="#!" role="button"
+  ><i class="fab fa-facebook-f"></i
+></a>
+<!-- Youtube -->
+<a class="btn youtube-icon-cls"  href="#!" role="button"
+  ><i class="fab fa-youtube"></i
+></a>
+
+
+<!-- Google -->
+<a class="btn google-icon-cls"   href="#!" role="button"
+  ><i class="fab fa-google"></i
+></a>
+<!-- Whatsapp -->
+<a class="btn whatspp-icon-cls"   href="#!" role="button"
+  ><i class="fab fa-whatsapp"></i
+></a>
+</div>
+</div>
+
+            <div class="container px-4 px-lg-5 pt-2">
+			<div class="small text-center text-muted">Copyright &copy; 2022 Sanskriti.jkyog.org and Developed By <a href="http://www.ipowerfour.com/" target="_blank">iPowerFour</a>
+            </div>
+			</div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" type="text/javascript"></script>
+		<script language="JavaScript" type="text/javascript" script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
+		<script>
+    var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = "";
+        this.tick();
+        this.isDeleting = false;
+    };
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+        if(this.isDeleting) {
+            this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+            this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+        this.el.innerHTML = '<span class="wrap" style="color:#27B235; font-size:22px; font-weight:600">' + this.txt + "</span>";
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+        if(this.isDeleting) {
+            delta /= 2;
+        }
+        if(!this.isDeleting && this.txt === fullTxt) {
+            delta = this.period;
+            this.isDeleting = true;
+        } else if(this.isDeleting && this.txt === "") {
+            this.isDeleting = false;
+            this.loopNum++;
+            delta = 500;
+        }
+        setTimeout(function() {
+            that.tick();
+        }, delta);
+    };
+    window.onload = function() {
+        var elements = document.getElementsByClassName("typewrite");
+        for(var i = 0; i < elements.length; i++) {
+            var toRotate = elements[i].getAttribute("data-type");
+            var period = elements[i].getAttribute("data-period");
+            if(toRotate) {
+                new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+    </script>
+    </body>
+</html>

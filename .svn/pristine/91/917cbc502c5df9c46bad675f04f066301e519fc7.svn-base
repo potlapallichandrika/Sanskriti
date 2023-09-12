@@ -1,0 +1,238 @@
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\SandboxExtension;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+
+/* themes/custom/sanskriti/templates/block/block--block-content--glimpses.html.twig */
+class __TwigTemplate_db26ab136bdb80756c3235590322602ff8120ff8d8ecb1ff3cc15eed98e77ea0 extends \Twig\Template
+{
+    private $source;
+    private $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->parent = false;
+
+        $this->blocks = [
+        ];
+        $this->sandbox = $this->env->getExtension('\Twig\Extension\SandboxExtension');
+        $this->checkSecurity();
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 1
+        echo "<section class=\"elementor-section elementor-top-section elementor-element elementor-element-6d3c9a3 elementor-section-full_width elementor-section-height-default elementor-section-height-default\" data-id=\"6d3c9a3\" data-element_type=\"section\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">
+\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-no\">
+\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8f4e32f\" data-id=\"8f4e32f\" data-element_type=\"column\">
+\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t\t<section class=\"elementor-section elementor-inner-section elementor-element elementor-element-67aab10 elementor-section-full_width elementor-section-height-default elementor-section-height-default\" data-id=\"67aab10\" data-element_type=\"section\">
+\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">
+\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-958e02f\" data-id=\"958e02f\" data-element_type=\"column\">
+\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t\t\t\t\t\t<div class=\"elementor-element elementor-element-acd766b elementor-widget elementor-widget-heading\" data-id=\"acd766b\" data-element_type=\"widget\" data-widget_type=\"heading.default\">
+\t\t\t<div class=\"elementor-widget-container\">
+\t\t<h1 class=\"elementor-heading-title elementor-size-default\">Glimpses</h1>\t\t</div>
+\t\t\t</div>
+\t\t\t\t</div>
+\t</div>
+\t\t\t\t\t\t</div>
+\t</section>
+\t\t\t<section class=\"elementor-section elementor-inner-section elementor-element elementor-element-14f4489 elementor-section-full_width elementor-section-height-default elementor-section-height-default\" data-id=\"14f4489\" data-element_type=\"section\">
+\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">
+\t\t\t\t<div class=\"elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1394150\" data-id=\"1394150\" data-element_type=\"column\">
+\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t<div class=\"elementor-element elementor-element-6910e86 elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel\" data-id=\"6910e86\" data-element_type=\"widget\" data-settings=\"{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;autoplay_speed&quot;:3000,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}\" data-widget_type=\"image-carousel.default\">
+\t\t\t<div class=\"elementor-widget-container\">
+\t\t\t<div class=\"elementor-image-carousel-wrapper swiper-container\" dir=\"ltr\">
+\t\t   <div class=\"elementor-image-carousel swiper-wrapper\">
+\t\t\t\t\t\t\t<div class=\"swiper-slide\"><figure class=\"swiper-slide-inner\"><img class=\"swiper-slide-image\" src=\"assets/images/uploads/2021/10/84995523_2494108224023878_8597281996848234496_n-768x1157.jpg\" alt=\"84995523_2494108224023878_8597281996848234496_n\" /></figure></div>\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t<div class=\"swiper-pagination\"></div>
+\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-swiper-button elementor-swiper-button-prev\">
+\t\t\t\t\t<i aria-hidden=\"true\" class=\"eicon-chevron-left\"></i>\t\t\t\t\t\t<span class=\"elementor-screen-only\">Previous</span>
+\t\t\t\t</div>
+\t\t\t\t<div class=\"elementor-swiper-button elementor-swiper-button-next\">
+\t\t\t\t\t<i aria-hidden=\"true\" class=\"eicon-chevron-right\"></i>\t\t\t\t\t\t<span class=\"elementor-screen-only\">Next</span>
+\t\t\t\t</div>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t</div>
+\t\t\t</div>
+\t\t\t\t</div>
+\t</div>
+\t\t\t<div class=\"elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-f17dd5e\" data-id=\"f17dd5e\" data-element_type=\"column\">
+\t\t   <div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t\t<div class=\"elementor-element elementor-element-e7c3656 elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel\" data-id=\"e7c3656\" data-element_type=\"widget\" data-settings=\"{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;autoplay_speed&quot;:3000,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}\" data-widget_type=\"image-carousel.default\">
+\t\t\t    <div class=\"elementor-widget-container\">
+\t\t\t\t<div class=\"elementor-image-carousel-wrapper swiper-container\" dir=\"ltr\">
+\t\t         <div class=\"elementor-image-carousel swiper-wrapper\">
+\t\t\t\t\t\t\t<div class=\"swiper-slide\"><figure class=\"swiper-slide-inner\"><img class=\"swiper-slide-image\" src=\"assets/images/uploads/2021/09/85117093_2494056567362377_2280200619937497088_n-1-768x512.jpg\" alt=\"85117093_2494056567362377_2280200619937497088_n (1)\" /></figure></div>\t\t\t
+\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t<div class=\"swiper-pagination\"></div>
+\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-swiper-button elementor-swiper-button-prev\">
+\t\t\t\t\t<i aria-hidden=\"true\" class=\"eicon-chevron-left\"></i>\t\t\t\t\t\t<span class=\"elementor-screen-only\">Previous</span>
+\t\t\t\t</div>
+\t\t\t\t<div class=\"elementor-swiper-button elementor-swiper-button-next\">
+\t\t\t\t\t<i aria-hidden=\"true\" class=\"eicon-chevron-right\"></i>\t\t\t\t\t\t<span class=\"elementor-screen-only\">Next</span>
+\t\t\t\t</div>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t</div>
+\t\t\t</div>
+\t\t\t<div class=\"elementor-element elementor-element-df9ec60 elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel\" data-id=\"df9ec60\" data-element_type=\"widget\" data-settings=\"{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;autoplay_speed&quot;:3000,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}\" data-widget_type=\"image-carousel.default\">
+\t\t\t<div class=\"elementor-widget-container\">
+\t\t\t\t<div class=\"elementor-image-carousel-wrapper swiper-container\" dir=\"ltr\">
+\t\t<div class=\"elementor-image-carousel swiper-wrapper\">
+\t\t\t\t\t\t\t<div class=\"swiper-slide\"><figure class=\"swiper-slide-inner\"><img class=\"swiper-slide-image\" src=\"assets/images/uploads/2021/09/85025456_2494060087362025_2385063539254493184_n-1-768x545.jpg\" alt=\"85025456_2494060087362025_2385063539254493184_n (1)\" /></figure></div>\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t<div class=\"swiper-pagination\"></div>
+\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-swiper-button elementor-swiper-button-prev\">
+\t\t\t\t\t<i aria-hidden=\"true\" class=\"eicon-chevron-left\"></i>\t\t\t\t\t\t<span class=\"elementor-screen-only\">Previous</span>
+\t\t\t\t</div>
+\t\t\t\t<div class=\"elementor-swiper-button elementor-swiper-button-next\">
+\t\t\t\t\t<i aria-hidden=\"true\" class=\"eicon-chevron-right\"></i>\t\t\t\t\t\t<span class=\"elementor-screen-only\">Next</span>
+\t\t\t\t</div>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t</div>
+\t\t\t</div>
+\t\t\t\t</div>
+\t</div>
+\t\t\t\t\t\t</div>
+\t</section>
+\t\t\t\t</div>
+\t</div>
+\t\t\t\t\t\t</div>
+\t</section>";
+    }
+
+    public function getTemplateName()
+    {
+        return "themes/custom/sanskriti/templates/block/block--block-content--glimpses.html.twig";
+    }
+
+    public function getDebugInfo()
+    {
+        return array (  39 => 1,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Source("<section class=\"elementor-section elementor-top-section elementor-element elementor-element-6d3c9a3 elementor-section-full_width elementor-section-height-default elementor-section-height-default\" data-id=\"6d3c9a3\" data-element_type=\"section\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">
+\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-no\">
+\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8f4e32f\" data-id=\"8f4e32f\" data-element_type=\"column\">
+\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t\t<section class=\"elementor-section elementor-inner-section elementor-element elementor-element-67aab10 elementor-section-full_width elementor-section-height-default elementor-section-height-default\" data-id=\"67aab10\" data-element_type=\"section\">
+\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">
+\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-958e02f\" data-id=\"958e02f\" data-element_type=\"column\">
+\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t\t\t\t\t\t<div class=\"elementor-element elementor-element-acd766b elementor-widget elementor-widget-heading\" data-id=\"acd766b\" data-element_type=\"widget\" data-widget_type=\"heading.default\">
+\t\t\t<div class=\"elementor-widget-container\">
+\t\t<h1 class=\"elementor-heading-title elementor-size-default\">Glimpses</h1>\t\t</div>
+\t\t\t</div>
+\t\t\t\t</div>
+\t</div>
+\t\t\t\t\t\t</div>
+\t</section>
+\t\t\t<section class=\"elementor-section elementor-inner-section elementor-element elementor-element-14f4489 elementor-section-full_width elementor-section-height-default elementor-section-height-default\" data-id=\"14f4489\" data-element_type=\"section\">
+\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">
+\t\t\t\t<div class=\"elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1394150\" data-id=\"1394150\" data-element_type=\"column\">
+\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t<div class=\"elementor-element elementor-element-6910e86 elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel\" data-id=\"6910e86\" data-element_type=\"widget\" data-settings=\"{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;autoplay_speed&quot;:3000,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}\" data-widget_type=\"image-carousel.default\">
+\t\t\t<div class=\"elementor-widget-container\">
+\t\t\t<div class=\"elementor-image-carousel-wrapper swiper-container\" dir=\"ltr\">
+\t\t   <div class=\"elementor-image-carousel swiper-wrapper\">
+\t\t\t\t\t\t\t<div class=\"swiper-slide\"><figure class=\"swiper-slide-inner\"><img class=\"swiper-slide-image\" src=\"assets/images/uploads/2021/10/84995523_2494108224023878_8597281996848234496_n-768x1157.jpg\" alt=\"84995523_2494108224023878_8597281996848234496_n\" /></figure></div>\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t<div class=\"swiper-pagination\"></div>
+\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-swiper-button elementor-swiper-button-prev\">
+\t\t\t\t\t<i aria-hidden=\"true\" class=\"eicon-chevron-left\"></i>\t\t\t\t\t\t<span class=\"elementor-screen-only\">Previous</span>
+\t\t\t\t</div>
+\t\t\t\t<div class=\"elementor-swiper-button elementor-swiper-button-next\">
+\t\t\t\t\t<i aria-hidden=\"true\" class=\"eicon-chevron-right\"></i>\t\t\t\t\t\t<span class=\"elementor-screen-only\">Next</span>
+\t\t\t\t</div>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t</div>
+\t\t\t</div>
+\t\t\t\t</div>
+\t</div>
+\t\t\t<div class=\"elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-f17dd5e\" data-id=\"f17dd5e\" data-element_type=\"column\">
+\t\t   <div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t\t<div class=\"elementor-element elementor-element-e7c3656 elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel\" data-id=\"e7c3656\" data-element_type=\"widget\" data-settings=\"{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;autoplay_speed&quot;:3000,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}\" data-widget_type=\"image-carousel.default\">
+\t\t\t    <div class=\"elementor-widget-container\">
+\t\t\t\t<div class=\"elementor-image-carousel-wrapper swiper-container\" dir=\"ltr\">
+\t\t         <div class=\"elementor-image-carousel swiper-wrapper\">
+\t\t\t\t\t\t\t<div class=\"swiper-slide\"><figure class=\"swiper-slide-inner\"><img class=\"swiper-slide-image\" src=\"assets/images/uploads/2021/09/85117093_2494056567362377_2280200619937497088_n-1-768x512.jpg\" alt=\"85117093_2494056567362377_2280200619937497088_n (1)\" /></figure></div>\t\t\t
+\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t<div class=\"swiper-pagination\"></div>
+\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-swiper-button elementor-swiper-button-prev\">
+\t\t\t\t\t<i aria-hidden=\"true\" class=\"eicon-chevron-left\"></i>\t\t\t\t\t\t<span class=\"elementor-screen-only\">Previous</span>
+\t\t\t\t</div>
+\t\t\t\t<div class=\"elementor-swiper-button elementor-swiper-button-next\">
+\t\t\t\t\t<i aria-hidden=\"true\" class=\"eicon-chevron-right\"></i>\t\t\t\t\t\t<span class=\"elementor-screen-only\">Next</span>
+\t\t\t\t</div>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t</div>
+\t\t\t</div>
+\t\t\t<div class=\"elementor-element elementor-element-df9ec60 elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel\" data-id=\"df9ec60\" data-element_type=\"widget\" data-settings=\"{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;autoplay_speed&quot;:3000,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}\" data-widget_type=\"image-carousel.default\">
+\t\t\t<div class=\"elementor-widget-container\">
+\t\t\t\t<div class=\"elementor-image-carousel-wrapper swiper-container\" dir=\"ltr\">
+\t\t<div class=\"elementor-image-carousel swiper-wrapper\">
+\t\t\t\t\t\t\t<div class=\"swiper-slide\"><figure class=\"swiper-slide-inner\"><img class=\"swiper-slide-image\" src=\"assets/images/uploads/2021/09/85025456_2494060087362025_2385063539254493184_n-1-768x545.jpg\" alt=\"85025456_2494060087362025_2385063539254493184_n (1)\" /></figure></div>\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t<div class=\"swiper-pagination\"></div>
+\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-swiper-button elementor-swiper-button-prev\">
+\t\t\t\t\t<i aria-hidden=\"true\" class=\"eicon-chevron-left\"></i>\t\t\t\t\t\t<span class=\"elementor-screen-only\">Previous</span>
+\t\t\t\t</div>
+\t\t\t\t<div class=\"elementor-swiper-button elementor-swiper-button-next\">
+\t\t\t\t\t<i aria-hidden=\"true\" class=\"eicon-chevron-right\"></i>\t\t\t\t\t\t<span class=\"elementor-screen-only\">Next</span>
+\t\t\t\t</div>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t</div>
+\t\t\t</div>
+\t\t\t\t</div>
+\t</div>
+\t\t\t\t\t\t</div>
+\t</section>
+\t\t\t\t</div>
+\t</div>
+\t\t\t\t\t\t</div>
+\t</section>", "themes/custom/sanskriti/templates/block/block--block-content--glimpses.html.twig", "D:\\xampp-7.4.28\\htdocs\\Sanskriti\\BED\\branches\\development\\themes\\custom\\sanskriti\\templates\\block\\block--block-content--glimpses.html.twig");
+    }
+    
+    public function checkSecurity()
+    {
+        static $tags = array();
+        static $filters = array();
+        static $functions = array();
+
+        try {
+            $this->sandbox->checkSecurity(
+                [],
+                [],
+                []
+            );
+        } catch (SecurityError $e) {
+            $e->setSourceContext($this->source);
+
+            if ($e instanceof SecurityNotAllowedTagError && isset($tags[$e->getTagName()])) {
+                $e->setTemplateLine($tags[$e->getTagName()]);
+            } elseif ($e instanceof SecurityNotAllowedFilterError && isset($filters[$e->getFilterName()])) {
+                $e->setTemplateLine($filters[$e->getFilterName()]);
+            } elseif ($e instanceof SecurityNotAllowedFunctionError && isset($functions[$e->getFunctionName()])) {
+                $e->setTemplateLine($functions[$e->getFunctionName()]);
+            }
+
+            throw $e;
+        }
+
+    }
+}

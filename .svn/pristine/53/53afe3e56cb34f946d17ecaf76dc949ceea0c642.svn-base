@@ -1,0 +1,20 @@
+ 
+
+            <div class="container px-4 px-lg-5">
+			
+			<div class="small text-center text-muted"> <!-- Facebook -->
+			 {% for temp in content.field_foo['#items'] %}
+
+<!-- Facebook -->
+<a class="btn {{ temp.entity.field_social_icon_name.value }}-icon-cls"  href="{{ temp.entity.field_link.value }}" role="button"><i class="fab fa-{{ temp.entity.field_social_icon_name.value }}"></i></a>
+
+
+{% endfor %}
+</div>
+
+</div>
+            <div class="container px-4 px-lg-5 pt-2">
+			<div class="small text-center text-muted">{{content.field_copy_right_text[0]}} <a href="http://www.ipowerfour.com/" target="_blank">iPowerFour</a>
+            </div>
+			</div>
+        

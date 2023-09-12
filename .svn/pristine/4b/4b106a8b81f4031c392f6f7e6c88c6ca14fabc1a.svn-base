@@ -1,0 +1,4 @@
+@media (max-width: 650px) {
+.sec-title { margin-bottom: 10px; }
+#mainNav { background-color: #203864 !important;}
+}

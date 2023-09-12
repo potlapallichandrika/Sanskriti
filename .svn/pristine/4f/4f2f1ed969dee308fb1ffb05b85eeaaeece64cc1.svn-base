@@ -1,0 +1,86 @@
+<section class="elementor-section elementor-top-section elementor-element elementor-element-2a3243d7 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="2a3243d7" data-element_type="section">
+		<div class="elementor-container elementor-column-gap-default">
+		<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-19ee9bdf" data-id="19ee9bdf" data-element_type="column">
+		<div class="elementor-widget-wrap elementor-element-populated">
+		<div class="elementor-element elementor-element-7fda2281 elementor-widget elementor-widget-elementskit-heading" data-id="7fda2281" data-element_type="widget" data-widget_type="elementskit-heading.default">
+		<div class="elementor-widget-container">
+		<div class="ekit-wid-con" >
+		<div class="ekit-heading elementskit-section-title-wraper center   ekit_heading_tablet-   ekit_heading_mobile-">
+		<h1 class="ekit-heading--title elementskit-section-title ">Key Guests </h1>
+		<div class="ekit_heading_separetor_wraper ekit_heading_elementskit-border-divider">
+		<div class="elementskit-border-divider"></div>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		<section class="elementor-section elementor-inner-section elementor-element elementor-element-63537a1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="63537a1" data-element_type="section">
+			<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-83e7708" data-id="83e7708" data-element_type="column">
+		<div class="elementor-widget-wrap elementor-element-populated">
+		<div class="elementor-element elementor-element-6c32991 elementor-widget elementor-widget-image" data-id="6c32991" data-element_type="widget" data-widget_type="image.default">
+		<div class="elementor-widget-container">
+		<img width="1024" height="683" src="{{content.field_image[0]}}"/>															
+			</div>
+			</div>
+			</div>
+	</div>
+			<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-65298b0" data-id="65298b0" data-element_type="column">
+		<div class="elementor-widget-wrap elementor-element-populated">
+		<div class="elementor-element elementor-element-a6b4de3 elementor-widget elementor-widget-heading" data-id="a6b4de3" data-element_type="widget" data-widget_type="heading.default">
+		<div class="elementor-widget-container">
+		<h1 class="elementor-heading-title elementor-size-default">{{ content.field_title[0] }}</h1>		
+		</div>
+		</div>
+		<div class="elementor-element elementor-element-d7a247b elementor-widget elementor-widget-text-editor" data-id="d7a247b" data-element_type="widget" data-widget_type="text-editor.default">
+		<div class="elementor-widget-container">
+			{{content.field_description[0]|raw}}	 				
+          </div>
+		</div>
+		</div>
+	    </div>
+	</div>
+	</section>
+	<section class="elementor-section elementor-inner-section elementor-element elementor-element-2d6bb442 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2d6bb442" data-element_type="section">
+				<div class="elementor-container elementor-column-gap-default">
+				{% for temp in content.field_key_guests['#items'] %} 
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1c371447" data-id="1c371447" data-element_type="column">
+		        <div class="elementor-widget-wrap elementor-element-populated">
+				<div class="elementor-element elementor-element-d97091c elementor-widget elementor-widget-read-more" data-id="d97091c" data-element_type="widget" data-widget_type="read-more.default">
+			<div class="elementor-widget-container">
+		<div id="more-2167"></div>		
+		</div>
+		</div>
+		<div class="elementor-element elementor-element-46e75488 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-image-box" data-id="46e75488" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="elementskit-image-box.default">
+			<div class="elementor-widget-container">
+		<div class="ekit-wid-con" >
+		<div class="elementskit-info-image-box ekit-image-box text-center hover_from_center hover-border-bottom" >
+			<div class="elementskit-box-header image-box-img-center">
+
+				<img width="1500" height="1000" src="{{ file_url(temp.entity.field_image.entity.uri.value) }}" class="attachment-full size-full"  alt=""  sizes="(max-width: 1500px) 100vw, 1500px" />
+			</div>
+			
+			<div class="elementskit-box-body ekit-image-box-body">
+				<div class="elementskit-box-content ekit-image-box-body-inner">
+				<h1 class="elementskit-info-box-title">{{ temp.entity.field_title.value }}
+					</h1>
+			<div class="elementskit-box-style-content">
+					{{ temp.entity.field_description.value | raw }}            
+             </div>
+							
+				</div>
+
+				</div>
+		</div>
+     </div>		
+	 </div>
+		</div>
+			</div>
+	    </div>
+			{% endfor %}
+				</div>
+	</section>
+				</div>
+	</div>
+		</div>
+	</section>

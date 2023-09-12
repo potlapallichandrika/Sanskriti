@@ -1,0 +1,37 @@
+      <!-- Key Dates-->
+      <section class="page-section bg-light"  id="key-dates">
+	  <div class="container">
+                <div class="row text-center"> 
+                        <h1 class="key-dates-sec-title">Key Dates</h1>
+                        <hr class="divider divider" /> 
+						<p class="elementor-heading-title elementor-size-default">{{ content.field_short_desc[0]| raw }}</p>
+                </div>
+				<div class="row text-center"> 
+				<div class="col-md-6 ">
+			<a class="btn btn-primary btn-xl m-3" href="{{content.field_key_dates_button_link[0] | raw}}">{{ content.field_key_dates_button_text[0] | raw}}</a></div>
+			<div class="col-md-6">
+				<a class="btn btn-primary btn-xl m-3" href="{{content.field_key_dates_button_link[0] | raw}}">{{ content.field_key_dates_button_text[0] | raw}}</a></div>
+				</div>
+				</div>
+			
+            
+		<div class="container" id="key-dates-sec">
+	
+		<div class="row mt-5">
+		<div class="bird-registration-sec col-lg-3 col-md-6 col-25 text-center bg-white">
+            <div class="sec-title-infobox text-center">
+              <div class="box-header animation-">
+			  <div class="info-box-icon"> <i aria-hidden="true" class="early-bird-infobox-icon icon bi bi-clock "></i>
+			  </div>
+			  </div>
+                <div class="box-body">
+				<h1 class="key-dates-info-box-title"> Early Bird Registration Ends</h1>
+               <p>NOV 5</p>
+              </div>
+            </div>
+			
+          </div>
+		  </div>
+		  </div>
+		  
+       </section>

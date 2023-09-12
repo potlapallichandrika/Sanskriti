@@ -1,0 +1,78 @@
+@media (min-width: 992px){
+.key-guest-sec-img,.key-guest-sec-text{
+/*padding:inherit !important;*/
+}
+.events-video-sec{
+width:635px !important;
+height:375px !important;
+}
+.key-guest-sec-text{
+text-align:justify !important; 
+color: #818a91 !important;
+}
+.events-text{
+text-align:justify !important;
+margin-left:70px !important;
+color: #818a91 !important;
+line-height: 38px;
+}
+}
+.key-guest-card-text{
+	text-align:justify !important;
+}
+.key-guest-card-text h4{
+	text-align:center;
+	font-weight: bold;
+	
+}
+.key-guests-sec-row{
+margin-bottom: 20px;
+}
+.events-video-sec{
+	border-radius: 20px;
+}
+.card-info-item{
+	position: absolute; 
+	top:0px;
+	    
+}
+.card-info-item h3{ 
+	text-align: center;
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+}
+.card-info-item ul li .card-text{
+	color: white;
+    font-size: 18px;
+	padding-left:10px;
+}
+.fa-dot-circle-o{
+	font-size: 9px;display: block;color: white;
+	line-height: inherit;
+    list-style: none;
+}
+.rules-cls{
+padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.list-of-contests{
+	margin-top: 10px;
+}
+.carousel-indicators li {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 100% !important;
+}
+@media (max-width: 992px){
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.navbar-toggler {
+  border-color: rgb(255,102,203);
+} 
+}

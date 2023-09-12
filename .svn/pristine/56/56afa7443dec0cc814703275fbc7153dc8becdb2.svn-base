@@ -1,0 +1,8 @@
+{{ page.promotional_banner }}
+{{ page.header }}
+{{page.content}}
+{{ page.top }}
+
+<footer class="bg-light py-5">
+{{page.mini_footer}}
+        </footer>

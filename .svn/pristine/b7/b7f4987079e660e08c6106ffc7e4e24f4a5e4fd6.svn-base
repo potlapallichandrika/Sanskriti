@@ -1,0 +1,25 @@
+name: sanskriti
+type: theme
+description: 'Private theme for sanskriti'
+core_version_requirement: ^8.8 || ^9
+libraries:
+  - sanskriti/global-styling
+  - sanskriti/global-js
+base theme: claro
+regions:
+  promotional_banner: 'Promotional Banner'  
+  header: Header
+  site_logo: 'Site logo'
+  primary_menu: 'Primary menu'
+  home_page_content: 'Home Page Content'
+  homepage_content_right: 'homepage content right'
+  homepage_content_left: 'homepage content left'
+  homepage_content_bottom: 'homepage content bottom'
+  content: Content
+  banner_slider: 'Banner Slider'
+  myaccount_tabs: 'Myaccount Tabs'
+  breadcrumb: 'Breadcrumb'
+  sidebar_first: 'Sidebar first'
+  mini_footer: 'Mini Footer'
+  
+  

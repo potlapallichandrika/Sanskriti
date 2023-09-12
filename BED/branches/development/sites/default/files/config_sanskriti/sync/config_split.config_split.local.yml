@@ -1,0 +1,17 @@
+uuid: 33183693-b6fa-438e-9ecd-e8759150cba7
+langcode: en
+status: false
+dependencies: {  }
+id: local
+label: Local
+description: ''
+weight: 0
+folder: sites/default/files/config_sanskriti/local
+module:
+  devel: 0
+  reroute_email: 0
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true

@@ -1,0 +1,6 @@
+sanskriti_module.admin_settings_form:  
+  title: 'Sanskriti Variables'  
+  route_name: sanskriti_module.admin_settings_form  
+  description: 'Sanskriti Variables'  
+  parent: system.admin_config_system  
+  weight: 99   

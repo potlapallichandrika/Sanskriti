@@ -1,0 +1,200 @@
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\SandboxExtension;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+
+/* themes/custom/sanskriti/templates/block/block--block-content--testimonials.html.twig */
+class __TwigTemplate_d254b208c9134295cc4358db3c775cde184f82f91f644b3dfdbfe3ad8e87457c extends \Twig\Template
+{
+    private $source;
+    private $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->parent = false;
+
+        $this->blocks = [
+        ];
+        $this->sandbox = $this->env->getExtension('\Twig\Extension\SandboxExtension');
+        $this->checkSecurity();
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 1
+        echo "<section class=\"elementor-section elementor-top-section elementor-element elementor-element-0346ca8 elementor-section-full_width elementor-section-height-default elementor-section-height-default\" data-id=\"0346ca8\" data-element_type=\"section\" id=\"testimonials\">
+\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">
+\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-49e71a4\" data-id=\"49e71a4\" data-element_type=\"column\">
+\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t\t<div class=\"elementor-element elementor-element-3f8ddae elementor-widget elementor-widget-heading\" data-id=\"3f8ddae\" data-element_type=\"widget\" data-widget_type=\"heading.default\">
+\t\t\t<div class=\"elementor-widget-container\">
+\t\t<h1 class=\"elementor-heading-title elementor-size-default\">Testimonials</h1>\t\t
+\t\t
+\t\t</div>
+\t\t\t</div>
+\t\t\t
+\t\t\t<section class=\"elementor-section elementor-inner-section elementor-element elementor-element-acaa41b elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"acaa41b\" data-element_type=\"section\">
+\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">
+\t\t\t";
+        // line 14
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable((($__internal_compile_0 = twig_get_attribute($this->env, $this->source, ($context["content"] ?? null), "field_testimonials", [], "any", false, false, true, 14)) && is_array($__internal_compile_0) || $__internal_compile_0 instanceof ArrayAccess ? ($__internal_compile_0["#items"] ?? null) : null));
+        foreach ($context['_seq'] as $context["_key"] => $context["row"]) {
+            // line 15
+            echo "\t<div class=\"elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-bfc4b65\" data-id=\"bfc4b65\" data-element_type=\"column\">
+\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t\t<div class=\"elementor-element elementor-element-987a2b1 elementor-widget elementor-widget-eael-testimonial\" data-id=\"987a2b1\" data-element_type=\"widget\" data-widget_type=\"eael-testimonial.default\">
+\t\t\t<div class=\"elementor-widget-container\">
+\t\t
+        <div id=\"eael-testimonial-987a2b1\" class=\"eael-testimonial-item clearfix  content-top-icon-title-inline\">
+\t\t\t\t<div class=\"eael-testimonial-content eael-testimonial-inline-bio\">
+\t\t\t\t\t\t<div class=\"eael-testimonial-image\">
+\t\t\t\t\t\t\t\t<figure><img width=\"262\" height=\"300\" src=\"";
+            // line 23
+            echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->extensions['Drupal\Core\Template\TwigExtension']->getFileUrl($this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["row"], "entity", [], "any", false, false, true, 23), "field_image", [], "any", false, false, true, 23), "entity", [], "any", false, false, true, 23), "uri", [], "any", false, false, true, 23), "value", [], "any", false, false, true, 23), 23, $this->source)), "html", null, true);
+            echo "\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></figure>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t\t<div class=\"bio-text\"><p class=\"eael-testimonial-user\">";
+            // line 25
+            echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["row"], "entity", [], "any", false, false, true, 25), "field_title", [], "any", false, false, true, 25), "value", [], "any", false, false, true, 25), 25, $this->source), "html", null, true);
+            echo "</p></div>
+\t\t\t\t\t\t</div>
+\t\t<div class=\"eael-testimonial-content\">
+\t\t\t<div class=\"eael-testimonial-text\"><p>";
+            // line 28
+            echo $this->extensions['Drupal\Core\Template\TwigExtension']->renderVar($this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["row"], "entity", [], "any", false, false, true, 28), "field_description", [], "any", false, false, true, 28), "value", [], "any", false, false, true, 28), 28, $this->source));
+            echo "</p>
+</div>\t\t\t</div>
+\t
+\t
+\t<span class=\"eael-testimonial-quote\"></span>
+</div>
+
+\t\t</div>
+\t\t\t</div>
+\t\t\t\t</div>
+\t</div>
+\t";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['row'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 40
+        echo "\t
+\t\t\t\t\t\t</div>
+\t</section>
+\t
+\t\t\t\t</div>
+\t</div>
+\t\t\t\t\t\t</div>
+\t</section>";
+    }
+
+    public function getTemplateName()
+    {
+        return "themes/custom/sanskriti/templates/block/block--block-content--testimonials.html.twig";
+    }
+
+    public function isTraitable()
+    {
+        return false;
+    }
+
+    public function getDebugInfo()
+    {
+        return array (  97 => 40,  79 => 28,  73 => 25,  68 => 23,  58 => 15,  54 => 14,  39 => 1,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Source("<section class=\"elementor-section elementor-top-section elementor-element elementor-element-0346ca8 elementor-section-full_width elementor-section-height-default elementor-section-height-default\" data-id=\"0346ca8\" data-element_type=\"section\" id=\"testimonials\">
+\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">
+\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-49e71a4\" data-id=\"49e71a4\" data-element_type=\"column\">
+\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t\t<div class=\"elementor-element elementor-element-3f8ddae elementor-widget elementor-widget-heading\" data-id=\"3f8ddae\" data-element_type=\"widget\" data-widget_type=\"heading.default\">
+\t\t\t<div class=\"elementor-widget-container\">
+\t\t<h1 class=\"elementor-heading-title elementor-size-default\">Testimonials</h1>\t\t
+\t\t
+\t\t</div>
+\t\t\t</div>
+\t\t\t
+\t\t\t<section class=\"elementor-section elementor-inner-section elementor-element elementor-element-acaa41b elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"acaa41b\" data-element_type=\"section\">
+\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">
+\t\t\t{% for row in content.field_testimonials['#items'] %}
+\t<div class=\"elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-bfc4b65\" data-id=\"bfc4b65\" data-element_type=\"column\">
+\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t\t<div class=\"elementor-element elementor-element-987a2b1 elementor-widget elementor-widget-eael-testimonial\" data-id=\"987a2b1\" data-element_type=\"widget\" data-widget_type=\"eael-testimonial.default\">
+\t\t\t<div class=\"elementor-widget-container\">
+\t\t
+        <div id=\"eael-testimonial-987a2b1\" class=\"eael-testimonial-item clearfix  content-top-icon-title-inline\">
+\t\t\t\t<div class=\"eael-testimonial-content eael-testimonial-inline-bio\">
+\t\t\t\t\t\t<div class=\"eael-testimonial-image\">
+\t\t\t\t\t\t\t\t<figure><img width=\"262\" height=\"300\" src=\"{{ file_url(row.entity.field_image.entity.uri.value) }}\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></figure>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t\t<div class=\"bio-text\"><p class=\"eael-testimonial-user\">{{ row.entity.field_title.value }}</p></div>
+\t\t\t\t\t\t</div>
+\t\t<div class=\"eael-testimonial-content\">
+\t\t\t<div class=\"eael-testimonial-text\"><p>{{ row.entity.field_description.value | raw }}</p>
+</div>\t\t\t</div>
+\t
+\t
+\t<span class=\"eael-testimonial-quote\"></span>
+</div>
+
+\t\t</div>
+\t\t\t</div>
+\t\t\t\t</div>
+\t</div>
+\t{% endfor %}
+\t
+\t\t\t\t\t\t</div>
+\t</section>
+\t
+\t\t\t\t</div>
+\t</div>
+\t\t\t\t\t\t</div>
+\t</section>", "themes/custom/sanskriti/templates/block/block--block-content--testimonials.html.twig", "D:\\xampp-7.4.28\\htdocs\\Sanskriti\\BED\\branches\\development\\themes\\custom\\sanskriti\\templates\\block\\block--block-content--testimonials.html.twig");
+    }
+    
+    public function checkSecurity()
+    {
+        static $tags = array("for" => 14);
+        static $filters = array("escape" => 23, "raw" => 28);
+        static $functions = array("file_url" => 23);
+
+        try {
+            $this->sandbox->checkSecurity(
+                ['for'],
+                ['escape', 'raw'],
+                ['file_url']
+            );
+        } catch (SecurityError $e) {
+            $e->setSourceContext($this->source);
+
+            if ($e instanceof SecurityNotAllowedTagError && isset($tags[$e->getTagName()])) {
+                $e->setTemplateLine($tags[$e->getTagName()]);
+            } elseif ($e instanceof SecurityNotAllowedFilterError && isset($filters[$e->getFilterName()])) {
+                $e->setTemplateLine($filters[$e->getFilterName()]);
+            } elseif ($e instanceof SecurityNotAllowedFunctionError && isset($functions[$e->getFunctionName()])) {
+                $e->setTemplateLine($functions[$e->getFunctionName()]);
+            }
+
+            throw $e;
+        }
+
+    }
+}

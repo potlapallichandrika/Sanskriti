@@ -1,0 +1,17 @@
+uuid: fdd9e156-707a-4dec-9d5b-0fc61bec72e4
+langcode: en
+status: false
+dependencies: {  }
+id: dev
+label: Dev
+description: ''
+weight: 0
+folder: sites/default/files/config_sanskriti/dev
+module:
+  devel: 0
+  reroute_email: 0
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true

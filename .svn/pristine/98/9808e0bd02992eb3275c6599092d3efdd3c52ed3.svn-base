@@ -1,0 +1,3 @@
+@media (max-width: 650px) {
+.sec-title { margin-bottom: 10px; }
+}

@@ -1,0 +1,44 @@
+<div class="details-group">
+                            <div class="myaccount-subtitle">
+                                <h3>My Profile</h3>
+                            </div>
+                            <div class="user-view">
+                                <div class="user-profile-picture">
+                                    <div class="field field-user-picture field-label-hidden field-item">
+                                        <a href="/user">                                           
+											<img src="{{ profile_vars.profile.user_picture }}" width="100" height="100" typeof="foaf:Image">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="user-profile-details">
+                                    <div class="flex-group">
+                                        <div class="lable-name">Email :</div>
+                                        <div class="lable-details">{{ profile_vars.profile.mail }}</div>
+                                    </div>
+                                    <div class="flex-group">
+                                        <div class="lable-name">Member for :</div>
+                                        <div class="lable-details">{{ profile_vars.profile.member_for }}</div>
+                                    </div>
+                                    <div class="flex-group">
+                                        <div class="lable-name">Full Name :</div>
+                                        <div class="lable-details">{{ profile_vars.profile.field_full_name }}</div>
+                                    </div>
+                                    <div class="flex-group">
+                                        <div class="lable-name">Phone Number :</div>
+                                        <div class="lable-details">{{ profile_vars.profile.field_phone_number }}</div>
+                                    </div>
+                                    <div class="flex-group">
+                                        <div class="lable-name">Nick name :</div>
+                                        <div class="lable-details">{{ profile_vars.profile.field_nick_name }}</div>
+                                    </div>
+                                    <div class="flex-group">
+                                        <div class="lable-name">Date of Birth :</div>
+                                        <div class="lable-details">{{ profile_vars.profile.field_dob }}</div>
+                                    </div>
+									<div class="flex-group">
+                                        <div class="btn btn-global"><a target="_blank" href="{{ profile_vars.profile.host }}/user/{{ profile_vars.profile.uid }}/edit?ReturnTo={{ url('<front>') }}user">Edit</a></div>                                       
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>

@@ -1,0 +1,247 @@
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\SandboxExtension;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+
+/* themes/custom/sanskriti/templates/block/block--block-content--list-of-contests.html.twig */
+class __TwigTemplate_9798363b5a596353f2961de7e4259010b1d7bc549f714e2cff5eff20800a56fc extends \Twig\Template
+{
+    private $source;
+    private $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->parent = false;
+
+        $this->blocks = [
+        ];
+        $this->sandbox = $this->env->getExtension('\Twig\Extension\SandboxExtension');
+        $this->checkSecurity();
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 1
+        echo "
+<section class=\"elementor-section elementor-top-section elementor-element elementor-element-c1be0a9 elementor-section-full_width elementor-section-height-default elementor-section-height-default\" data-id=\"c1be0a9\" data-element_type=\"section\" id=\"contests\">
+\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">
+\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e0ede3c\" data-id=\"e0ede3c\" data-element_type=\"column\">
+\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t<div class=\"elementor-element elementor-element-7a9d367 elementor-widget elementor-widget-heading\" data-id=\"7a9d367\" data-element_type=\"widget\" data-widget_type=\"heading.default\">
+\t\t<div class=\"elementor-widget-container\">
+\t\t<h1 class=\"elementor-heading-title elementor-size-default\">";
+        // line 8
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->renderVar($this->sandbox->ensureToStringAllowed((($__internal_compile_0 = twig_get_attribute($this->env, $this->source, ($context["content"] ?? null), "field_title", [], "any", false, false, true, 8)) && is_array($__internal_compile_0) || $__internal_compile_0 instanceof ArrayAccess ? ($__internal_compile_0[0] ?? null) : null), 8, $this->source));
+        echo "</h1>\t\t
+\t\t</div>
+\t\t\t</div>
+\t\t\t<div class=\"elementor-element elementor-element-c86fd56 elementor-widget elementor-widget-heading\" data-id=\"c86fd56\" data-element_type=\"widget\" data-widget_type=\"heading.default\">
+\t\t\t<div class=\"elementor-widget-container\">
+\t\t<h1 class=\"elementor-heading-title elementor-size-default\">";
+        // line 13
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->renderVar($this->sandbox->ensureToStringAllowed((($__internal_compile_1 = twig_get_attribute($this->env, $this->source, ($context["content"] ?? null), "field_short_desc", [], "any", false, false, true, 13)) && is_array($__internal_compile_1) || $__internal_compile_1 instanceof ArrayAccess ? ($__internal_compile_1[0] ?? null) : null), 13, $this->source));
+        echo "</h1>\t\t</div>
+\t\t\t</div>
+<section class=\"elementor-section elementor-inner-section elementor-element elementor-element-37ce35a elementor-section-full_width elementor-section-height-default elementor-section-height-default\" data-id=\"37ce35a\" data-element_type=\"section\">
+\t\t\t";
+        // line 16
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable(twig_array_batch((($__internal_compile_2 = twig_get_attribute($this->env, $this->source, ($context["content"] ?? null), "field_list_of_contests", [], "any", false, false, true, 16)) && is_array($__internal_compile_2) || $__internal_compile_2 instanceof ArrayAccess ? ($__internal_compile_2["#items"] ?? null) : null), 4));
+        foreach ($context['_seq'] as $context["_key"] => $context["temp"]) {
+            // line 17
+            echo "\t\t\t<div class=\"elementor-container elementor-column-gap-default\">
+\t\t\t ";
+            // line 18
+            $context['_parent'] = $context;
+            $context['_seq'] = twig_ensure_traversable($context["temp"]);
+            foreach ($context['_seq'] as $context["_key"] => $context["var"]) {
+                // line 19
+                echo "\t\t\t<div class=\"elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-08eeb54\" data-id=\"08eeb54\" data-element_type=\"column\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">
+\t\t   <div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t  
+\t\t\t<div class=\"elementor-background-overlay\"></div>
+\t\t\t<div class=\"elementor-element elementor-element-fef7e78 elementor-widget elementor-widget-heading\" data-id=\"fef7e78\" data-element_type=\"widget\" data-widget_type=\"heading.default\">
+\t\t<div class=\"elementor-widget-container\">
+\t\t<h1 class=\"elementor-heading-title elementor-size-default\">";
+                // line 25
+                echo $this->extensions['Drupal\Core\Template\TwigExtension']->renderVar($this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["var"], "entity", [], "any", false, false, true, 25), "field_title", [], "any", false, false, true, 25), "value", [], "any", false, false, true, 25), 25, $this->source));
+                echo "</h1>\t\t</div>
+\t\t\t</div>
+\t\t\t<div class=\"elementor-element elementor-element-36101f8 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list\" data-id=\"36101f8\" data-element_type=\"widget\" data-widget_type=\"icon-list.default\">
+\t\t\t<div class=\"elementor-widget-container\">
+\t\t\t";
+                // line 29
+                echo $this->extensions['Drupal\Core\Template\TwigExtension']->renderVar($this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["var"], "entity", [], "any", false, false, true, 29), "field_description", [], "any", false, false, true, 29), "value", [], "any", false, false, true, 29), 29, $this->source));
+                echo "
+\t\t\t</div>
+\t\t\t</div>
+\t\t\t<div class=\"elementor-element elementor-element-9a56f8c elementor-align-center elementor-mobile-align-center elementor-widget elementor-widget-button\" data-id=\"9a56f8c\" data-element_type=\"widget\" data-settings=\"{&quot;_animation&quot;:&quot;none&quot;}\" data-widget_type=\"button.default\">
+\t\t\t<div class=\"elementor-widget-container\">
+\t\t\t";
+                // line 34
+                if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["var"], "entity", [], "any", false, false, true, 34), "field_button_text", [], "any", false, false, true, 34), "value", [], "any", false, false, true, 34)) {
+                    // line 35
+                    echo "\t\t\t\t<div class=\"elementor-button-wrapper\">
+\t\t<a href=\"";
+                    // line 36
+                    echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["var"], "entity", [], "any", false, false, true, 36), "field_button_link", [], "any", false, false, true, 36), "value", [], "any", false, false, true, 36), 36, $this->source), "html", null, true);
+                    echo "\" class=\"elementor-button-link elementor-button elementor-size-lg\" role=\"button\">
+\t\t\t\t\t<span class=\"elementor-button-content-wrapper\">
+\t\t\t\t\t<span class=\"elementor-button-text\">";
+                    // line 38
+                    echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, $context["var"], "entity", [], "any", false, false, true, 38), "field_button_text", [], "any", false, false, true, 38), "value", [], "any", false, false, true, 38), 38, $this->source), "html", null, true);
+                    echo "</span>
+\t</span>
+\t\t\t\t</a>
+\t</div>
+\t";
+                }
+                // line 43
+                echo "\t\t\t</div>
+\t\t\t</div>
+\t\t\t</div>
+\t\t\t
+\t</div>
+\t\t";
+            }
+            $_parent = $context['_parent'];
+            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['var'], $context['_parent'], $context['loop']);
+            $context = array_intersect_key($context, $_parent) + $_parent;
+            // line 48
+            echo "\t
+\t</div>
+\t\t";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['temp'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 51
+        echo "\t</section>
+\t
+\t
+\t\t\t
+\t\t\t\t</div>
+\t</div>
+\t\t\t\t\t\t</div>
+\t</section>";
+    }
+
+    public function getTemplateName()
+    {
+        return "themes/custom/sanskriti/templates/block/block--block-content--list-of-contests.html.twig";
+    }
+
+    public function isTraitable()
+    {
+        return false;
+    }
+
+    public function getDebugInfo()
+    {
+        return array (  133 => 51,  125 => 48,  114 => 43,  106 => 38,  101 => 36,  98 => 35,  96 => 34,  88 => 29,  81 => 25,  73 => 19,  69 => 18,  66 => 17,  62 => 16,  56 => 13,  48 => 8,  39 => 1,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Source("
+<section class=\"elementor-section elementor-top-section elementor-element elementor-element-c1be0a9 elementor-section-full_width elementor-section-height-default elementor-section-height-default\" data-id=\"c1be0a9\" data-element_type=\"section\" id=\"contests\">
+\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">
+\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e0ede3c\" data-id=\"e0ede3c\" data-element_type=\"column\">
+\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t<div class=\"elementor-element elementor-element-7a9d367 elementor-widget elementor-widget-heading\" data-id=\"7a9d367\" data-element_type=\"widget\" data-widget_type=\"heading.default\">
+\t\t<div class=\"elementor-widget-container\">
+\t\t<h1 class=\"elementor-heading-title elementor-size-default\">{{ content.field_title[0] | raw}}</h1>\t\t
+\t\t</div>
+\t\t\t</div>
+\t\t\t<div class=\"elementor-element elementor-element-c86fd56 elementor-widget elementor-widget-heading\" data-id=\"c86fd56\" data-element_type=\"widget\" data-widget_type=\"heading.default\">
+\t\t\t<div class=\"elementor-widget-container\">
+\t\t<h1 class=\"elementor-heading-title elementor-size-default\">{{content.field_short_desc[0] | raw}}</h1>\t\t</div>
+\t\t\t</div>
+<section class=\"elementor-section elementor-inner-section elementor-element elementor-element-37ce35a elementor-section-full_width elementor-section-height-default elementor-section-height-default\" data-id=\"37ce35a\" data-element_type=\"section\">
+\t\t\t{% for temp in content.field_list_of_contests['#items'] |batch(4) %}
+\t\t\t<div class=\"elementor-container elementor-column-gap-default\">
+\t\t\t {% for var in temp %}
+\t\t\t<div class=\"elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-08eeb54\" data-id=\"08eeb54\" data-element_type=\"column\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">
+\t\t   <div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t  
+\t\t\t<div class=\"elementor-background-overlay\"></div>
+\t\t\t<div class=\"elementor-element elementor-element-fef7e78 elementor-widget elementor-widget-heading\" data-id=\"fef7e78\" data-element_type=\"widget\" data-widget_type=\"heading.default\">
+\t\t<div class=\"elementor-widget-container\">
+\t\t<h1 class=\"elementor-heading-title elementor-size-default\">{{ var.entity.field_title.value | raw }}</h1>\t\t</div>
+\t\t\t</div>
+\t\t\t<div class=\"elementor-element elementor-element-36101f8 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list\" data-id=\"36101f8\" data-element_type=\"widget\" data-widget_type=\"icon-list.default\">
+\t\t\t<div class=\"elementor-widget-container\">
+\t\t\t{{ var.entity.field_description.value | raw }}
+\t\t\t</div>
+\t\t\t</div>
+\t\t\t<div class=\"elementor-element elementor-element-9a56f8c elementor-align-center elementor-mobile-align-center elementor-widget elementor-widget-button\" data-id=\"9a56f8c\" data-element_type=\"widget\" data-settings=\"{&quot;_animation&quot;:&quot;none&quot;}\" data-widget_type=\"button.default\">
+\t\t\t<div class=\"elementor-widget-container\">
+\t\t\t{% if var.entity.field_button_text.value %}
+\t\t\t\t<div class=\"elementor-button-wrapper\">
+\t\t<a href=\"{{ var.entity.field_button_link.value }}\" class=\"elementor-button-link elementor-button elementor-size-lg\" role=\"button\">
+\t\t\t\t\t<span class=\"elementor-button-content-wrapper\">
+\t\t\t\t\t<span class=\"elementor-button-text\">{{ var.entity.field_button_text.value }}</span>
+\t</span>
+\t\t\t\t</a>
+\t</div>
+\t{% endif %}
+\t\t\t</div>
+\t\t\t</div>
+\t\t\t</div>
+\t\t\t
+\t</div>
+\t\t{% endfor %}\t
+\t</div>
+\t\t{% endfor %}
+\t</section>
+\t
+\t
+\t\t\t
+\t\t\t\t</div>
+\t</div>
+\t\t\t\t\t\t</div>
+\t</section>", "themes/custom/sanskriti/templates/block/block--block-content--list-of-contests.html.twig", "D:\\xampp-7.4.28\\htdocs\\Sanskriti\\BED\\branches\\development\\themes\\custom\\sanskriti\\templates\\block\\block--block-content--list-of-contests.html.twig");
+    }
+    
+    public function checkSecurity()
+    {
+        static $tags = array("for" => 16, "if" => 34);
+        static $filters = array("raw" => 8, "batch" => 16, "escape" => 36);
+        static $functions = array();
+
+        try {
+            $this->sandbox->checkSecurity(
+                ['for', 'if'],
+                ['raw', 'batch', 'escape'],
+                []
+            );
+        } catch (SecurityError $e) {
+            $e->setSourceContext($this->source);
+
+            if ($e instanceof SecurityNotAllowedTagError && isset($tags[$e->getTagName()])) {
+                $e->setTemplateLine($tags[$e->getTagName()]);
+            } elseif ($e instanceof SecurityNotAllowedFilterError && isset($filters[$e->getFilterName()])) {
+                $e->setTemplateLine($filters[$e->getFilterName()]);
+            } elseif ($e instanceof SecurityNotAllowedFunctionError && isset($functions[$e->getFunctionName()])) {
+                $e->setTemplateLine($functions[$e->getFunctionName()]);
+            }
+
+            throw $e;
+        }
+
+    }
+}

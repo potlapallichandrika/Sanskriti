@@ -1,0 +1,18 @@
+<div data-elementor-type="wp-page" data-elementor-id="2167" class="elementor elementor-2167">
+<section class="elementor-section elementor-top-section elementor-element elementor-element-e0b4ded elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="e0b4ded" data-element_type="section" style="background-image:url('themes/custom/sanskriti/images/uploads/2021/10/Sanskriti-Banner-1280-x-720-px.png');">
+						<div class="elementor-background-overlay">
+						</div>
+						<div class="elementor-container elementor-column-gap-no">
+				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5550603" data-id="5550603" data-element_type="column">
+		<div class="elementor-widget-wrap elementor-element-populated">
+		    {{ content.body [0] |raw }}
+			<div class="elementor-element elementor-element-cc27361 elementor-hidden-desktop elementor-widget elementor-widget-image" data-id="cc27361" data-element_type="widget" data-widget_type="image.default">
+			<div class="elementor-widget-container">
+			<img width="1035" height="359" src="{{file_url(content.field_bannerimage.entity.uri.value)}}" class="attachment-full size-full" alt="" loading="lazy" sizes="(max-width: 1035px) 100vw, 1035px" />		
+			</div>													
+			</div>
+			</div>
+	</div>
+			</div>
+			</div>
+	</section>

@@ -1,0 +1,43 @@
+      <!-- Key Dates-->
+      <section class="page-section bg-light"  id="key-dates">
+	  <div class="container">
+            <div class="row text-center"> 
+                        <h1 class="key-dates-sec-title">{{content.field_title[0] | raw}}</h1>
+                        <hr class="divider divider" /> 
+						{{ content.field_short_desc[0]| raw }}
+            </div>
+				<div class="row text-center bt-sec">
+               {% if content.field_usa_register_button_label[0] %}				
+				<div class="col-md-6 ">
+			<a class="btn btn-primary btn-xl m-3" href="{{content.field_usa_register_button_link[0]}}">{{ content.field_usa_register_button_label[0]}}</a></div>
+			{% endif %}
+			{% if content.field_usa_register_button_label[0] %}
+			<div class="col-md-6">
+				<a class="btn btn-primary btn-xl m-3" href="{{content.field_india_register_button_link[0]}}">{{ content.field_india_register_button_labe[0]}}</a></div>
+			{% endif %}	
+			    </div>
+	  </div>
+			
+            
+		<div class="container" id="key-dates-sec">
+		{% for temp in content.field_key_dates['#items'] |batch(4) %}
+		<div class="row mt-5">
+		{% for var in temp %}
+		<div class="bird-registration-sec col-lg-3 col-md-6 col-25 text-center bg-white">
+            <div class="sec-title-infobox text-center">
+              <div class="box-header animation-">
+			  <div class="info-box-icon"> <i aria-hidden="true" class="early-bird-infobox-icon icon {{ var.entity.field_key_dates_icon.value }} "></i>
+			  </div>
+			  </div>
+                <div class="box-body">
+				<h1 class="key-dates-info-box-title">{{ var.entity.field_description.value | raw }}</h1>
+                 <p>{{ var.entity.field_date.value }}</p>
+                </div>
+            </div>	
+        </div>
+		{% endfor %}
+		</div>
+		{% endfor %}
+		</div>
+		  
+       </section>

@@ -1,0 +1,129 @@
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\SandboxExtension;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+
+/* themes/custom/sanskriti/templates/block/block--block-content--banner.html.twig */
+class __TwigTemplate_1eb47cbf818ce4180f824693c8c0a00e9ae4a776e0a84eb37d5409a6239ad3b3 extends \Twig\Template
+{
+    private $source;
+    private $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->parent = false;
+
+        $this->blocks = [
+        ];
+        $this->sandbox = $this->env->getExtension('\Twig\Extension\SandboxExtension');
+        $this->checkSecurity();
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 1
+        echo "<div data-elementor-type=\"wp-page\" data-elementor-id=\"2167\" class=\"elementor elementor-2167\">
+<section class=\"elementor-section elementor-top-section elementor-element elementor-element-e0b4ded elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle\" data-id=\"e0b4ded\" data-element_type=\"section\" style=\"background-image:url('themes/custom/sanskriti/images/uploads/2021/10/Sanskriti-Banner-1280-x-720-px.png');\">
+\t\t\t\t\t\t<div class=\"elementor-background-overlay\">
+\t\t\t\t\t\t</div>
+\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-no\">
+\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5550603\" data-id=\"5550603\" data-element_type=\"column\">
+\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t    ";
+        // line 8
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->renderVar($this->sandbox->ensureToStringAllowed((($__internal_compile_0 = twig_get_attribute($this->env, $this->source, ($context["content"] ?? null), "body", [], "any", false, false, true, 8)) && is_array($__internal_compile_0) || $__internal_compile_0 instanceof ArrayAccess ? ($__internal_compile_0[0] ?? null) : null), 8, $this->source));
+        echo "
+\t\t\t<div class=\"elementor-element elementor-element-cc27361 elementor-hidden-desktop elementor-widget elementor-widget-image\" data-id=\"cc27361\" data-element_type=\"widget\" data-widget_type=\"image.default\">
+\t\t\t<div class=\"elementor-widget-container\">
+\t\t\t<img width=\"1035\" height=\"359\" src=\"";
+        // line 11
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->extensions['Drupal\Core\Template\TwigExtension']->getFileUrl($this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["content"] ?? null), "field_bannerimage", [], "any", false, false, true, 11), "entity", [], "any", false, false, true, 11), "uri", [], "any", false, false, true, 11), "value", [], "any", false, false, true, 11), 11, $this->source)), "html", null, true);
+        echo "\" class=\"attachment-full size-full\" alt=\"\" loading=\"lazy\" sizes=\"(max-width: 1035px) 100vw, 1035px\" />\t\t
+\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t
+\t\t\t</div>
+\t\t\t</div>
+\t</div>
+\t\t\t</div>
+\t\t\t</div>
+\t</section>";
+    }
+
+    public function getTemplateName()
+    {
+        return "themes/custom/sanskriti/templates/block/block--block-content--banner.html.twig";
+    }
+
+    public function isTraitable()
+    {
+        return false;
+    }
+
+    public function getDebugInfo()
+    {
+        return array (  54 => 11,  48 => 8,  39 => 1,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Source("<div data-elementor-type=\"wp-page\" data-elementor-id=\"2167\" class=\"elementor elementor-2167\">
+<section class=\"elementor-section elementor-top-section elementor-element elementor-element-e0b4ded elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle\" data-id=\"e0b4ded\" data-element_type=\"section\" style=\"background-image:url('themes/custom/sanskriti/images/uploads/2021/10/Sanskriti-Banner-1280-x-720-px.png');\">
+\t\t\t\t\t\t<div class=\"elementor-background-overlay\">
+\t\t\t\t\t\t</div>
+\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-no\">
+\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5550603\" data-id=\"5550603\" data-element_type=\"column\">
+\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t    {{ content.body [0] |raw }}
+\t\t\t<div class=\"elementor-element elementor-element-cc27361 elementor-hidden-desktop elementor-widget elementor-widget-image\" data-id=\"cc27361\" data-element_type=\"widget\" data-widget_type=\"image.default\">
+\t\t\t<div class=\"elementor-widget-container\">
+\t\t\t<img width=\"1035\" height=\"359\" src=\"{{file_url(content.field_bannerimage.entity.uri.value)}}\" class=\"attachment-full size-full\" alt=\"\" loading=\"lazy\" sizes=\"(max-width: 1035px) 100vw, 1035px\" />\t\t
+\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t\t\t
+\t\t\t</div>
+\t\t\t</div>
+\t</div>
+\t\t\t</div>
+\t\t\t</div>
+\t</section>", "themes/custom/sanskriti/templates/block/block--block-content--banner.html.twig", "D:\\xampp-7.4.28\\htdocs\\Sanskriti\\BED\\branches\\development\\themes\\custom\\sanskriti\\templates\\block\\block--block-content--banner.html.twig");
+    }
+    
+    public function checkSecurity()
+    {
+        static $tags = array();
+        static $filters = array("raw" => 8, "escape" => 11);
+        static $functions = array("file_url" => 11);
+
+        try {
+            $this->sandbox->checkSecurity(
+                [],
+                ['raw', 'escape'],
+                ['file_url']
+            );
+        } catch (SecurityError $e) {
+            $e->setSourceContext($this->source);
+
+            if ($e instanceof SecurityNotAllowedTagError && isset($tags[$e->getTagName()])) {
+                $e->setTemplateLine($tags[$e->getTagName()]);
+            } elseif ($e instanceof SecurityNotAllowedFilterError && isset($filters[$e->getFilterName()])) {
+                $e->setTemplateLine($filters[$e->getFilterName()]);
+            } elseif ($e instanceof SecurityNotAllowedFunctionError && isset($functions[$e->getFunctionName()])) {
+                $e->setTemplateLine($functions[$e->getFunctionName()]);
+            }
+
+            throw $e;
+        }
+
+    }
+}

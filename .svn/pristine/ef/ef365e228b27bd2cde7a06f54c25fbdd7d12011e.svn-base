@@ -1,0 +1,19 @@
+sanskriti_module.admin:
+  path: '/admin/dashboard'
+  defaults:
+    _controller: '\Drupal\sanskriti_module\Controller\AdminController::getAdminDashboard'
+    _title: 'Admin Dashboard'
+  requirements:
+    _permission: 'admin dashboard'
+  options:
+    no_cache: 'TRUE'
+
+sanskriti_module.admin_settings_form:  
+  path: '/admin/config/sanskriti/sanskriti-variables'
+  defaults:  
+    _form: '\Drupal\sanskriti_module\Form\SanskritiVariablesForm'  
+    _title: 'Sanskriti Variables'  
+  requirements:
+    _role: 'administrator'
+  options:  
+    _admin_route: TRUE

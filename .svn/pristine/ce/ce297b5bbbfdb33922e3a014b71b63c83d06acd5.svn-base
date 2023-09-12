@@ -1,0 +1,168 @@
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\SandboxExtension;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+
+/* themes/custom/sanskriti/templates/block/block--block-content--event-highlights.html.twig */
+class __TwigTemplate_a5dd898b76b18bd09017ac660afb06ed0853bcf91df01a2eb65129589c339aa8 extends \Twig\Template
+{
+    private $source;
+    private $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->parent = false;
+
+        $this->blocks = [
+        ];
+        $this->sandbox = $this->env->getExtension('\Twig\Extension\SandboxExtension');
+        $this->checkSecurity();
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 1
+        echo "<section class=\"elementor-section elementor-top-section elementor-element elementor-element-174bfdb elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"174bfdb\" data-element_type=\"section\">
+\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">
+\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-875aa80\" data-id=\"875aa80\" data-element_type=\"column\">
+\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t\t\t\t\t\t<div class=\"elementor-element elementor-element-92f6cf4 elementor-widget elementor-widget-heading\" data-id=\"92f6cf4\" data-element_type=\"widget\" data-widget_type=\"heading.default\">
+\t\t\t<div class=\"elementor-widget-container\">
+\t\t<h1 class=\"elementor-heading-title elementor-size-default\">";
+        // line 7
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->renderVar($this->sandbox->ensureToStringAllowed((($__internal_compile_0 = twig_get_attribute($this->env, $this->source, ($context["content"] ?? null), "field_title", [], "any", false, false, true, 7)) && is_array($__internal_compile_0) || $__internal_compile_0 instanceof ArrayAccess ? ($__internal_compile_0[0] ?? null) : null), 7, $this->source));
+        echo "</h1>\t\t</div>
+\t\t\t</div>
+\t\t\t\t</div>
+\t</div>
+\t\t\t\t\t\t</div>
+\t</section>
+\t\t\t<section class=\"elementor-section elementor-top-section elementor-element elementor-element-85f34b1 elementor-section-full_width elementor-section-height-default elementor-section-height-default\" data-id=\"85f34b1\" data-element_type=\"section\">
+\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">
+\t\t\t\t<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b99c3db\" data-id=\"b99c3db\" data-element_type=\"column\">
+\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t\t\t\t\t\t<div class=\"elementor-element elementor-element-6800ae1 elementor-widget elementor-widget-text-editor\" data-id=\"6800ae1\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">
+\t\t\t<div class=\"elementor-widget-container\">\t
+                   ";
+        // line 19
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->renderVar($this->sandbox->ensureToStringAllowed((($__internal_compile_1 = twig_get_attribute($this->env, $this->source, ($context["content"] ?? null), "body", [], "any", false, false, true, 19)) && is_array($__internal_compile_1) || $__internal_compile_1 instanceof ArrayAccess ? ($__internal_compile_1[0] ?? null) : null), 19, $this->source));
+        echo "\t\t\t
+\t\t\t</div>
+\t\t\t</div>
+\t\t\t\t</div>
+\t</div>
+\t\t\t<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-cd0c3fe\" data-id=\"cd0c3fe\" data-element_type=\"column\">
+\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t\t\t\t\t\t<div class=\"elementor-element elementor-element-75ea372 elementor-aspect-ratio-169 elementor-widget elementor-widget-video\"   >
+\t\t\t<div class=\"elementor-widget-container\">
+\t\t
+<div class=\"elementor-wrapper elementor-fit-aspect-ratio elementor-open-inline\">
+\t\t<iframe class=\"elementor-video\" frameborder=\"0\" allowfullscreen=\"1\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" title=\"Sanskriti glimpse 2020\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/";
+        // line 30
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed((($__internal_compile_2 = twig_get_attribute($this->env, $this->source, ($context["content"] ?? null), "field_video_id", [], "any", false, false, true, 30)) && is_array($__internal_compile_2) || $__internal_compile_2 instanceof ArrayAccess ? ($__internal_compile_2[0] ?? null) : null), 30, $this->source), "html", null, true);
+        echo "\" id=\"widget2\"></iframe>\t\t</div>
+\t\t\t</div>
+\t\t\t</div>
+\t\t\t\t</div>
+\t</div>
+\t\t\t\t\t\t</div>
+\t</section>";
+    }
+
+    public function getTemplateName()
+    {
+        return "themes/custom/sanskriti/templates/block/block--block-content--event-highlights.html.twig";
+    }
+
+    public function isTraitable()
+    {
+        return false;
+    }
+
+    public function getDebugInfo()
+    {
+        return array (  76 => 30,  62 => 19,  47 => 7,  39 => 1,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Source("<section class=\"elementor-section elementor-top-section elementor-element elementor-element-174bfdb elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"174bfdb\" data-element_type=\"section\">
+\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">
+\t\t\t\t<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-875aa80\" data-id=\"875aa80\" data-element_type=\"column\">
+\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t\t\t\t\t\t<div class=\"elementor-element elementor-element-92f6cf4 elementor-widget elementor-widget-heading\" data-id=\"92f6cf4\" data-element_type=\"widget\" data-widget_type=\"heading.default\">
+\t\t\t<div class=\"elementor-widget-container\">
+\t\t<h1 class=\"elementor-heading-title elementor-size-default\">{{content.field_title[0] | raw}}</h1>\t\t</div>
+\t\t\t</div>
+\t\t\t\t</div>
+\t</div>
+\t\t\t\t\t\t</div>
+\t</section>
+\t\t\t<section class=\"elementor-section elementor-top-section elementor-element elementor-element-85f34b1 elementor-section-full_width elementor-section-height-default elementor-section-height-default\" data-id=\"85f34b1\" data-element_type=\"section\">
+\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">
+\t\t\t\t<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b99c3db\" data-id=\"b99c3db\" data-element_type=\"column\">
+\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t\t\t\t\t\t<div class=\"elementor-element elementor-element-6800ae1 elementor-widget elementor-widget-text-editor\" data-id=\"6800ae1\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">
+\t\t\t<div class=\"elementor-widget-container\">\t
+                   {{content.body[0] | raw}}\t\t\t
+\t\t\t</div>
+\t\t\t</div>
+\t\t\t\t</div>
+\t</div>
+\t\t\t<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-cd0c3fe\" data-id=\"cd0c3fe\" data-element_type=\"column\">
+\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">
+\t\t\t\t\t\t\t<div class=\"elementor-element elementor-element-75ea372 elementor-aspect-ratio-169 elementor-widget elementor-widget-video\"   >
+\t\t\t<div class=\"elementor-widget-container\">
+\t\t
+<div class=\"elementor-wrapper elementor-fit-aspect-ratio elementor-open-inline\">
+\t\t<iframe class=\"elementor-video\" frameborder=\"0\" allowfullscreen=\"1\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" title=\"Sanskriti glimpse 2020\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/{{content.field_video_id[0]}}\" id=\"widget2\"></iframe>\t\t</div>
+\t\t\t</div>
+\t\t\t</div>
+\t\t\t\t</div>
+\t</div>
+\t\t\t\t\t\t</div>
+\t</section>", "themes/custom/sanskriti/templates/block/block--block-content--event-highlights.html.twig", "D:\\xampp-7.4.28\\htdocs\\Sanskriti\\BED\\branches\\development\\themes\\custom\\sanskriti\\templates\\block\\block--block-content--event-highlights.html.twig");
+    }
+    
+    public function checkSecurity()
+    {
+        static $tags = array();
+        static $filters = array("raw" => 7, "escape" => 30);
+        static $functions = array();
+
+        try {
+            $this->sandbox->checkSecurity(
+                [],
+                ['raw', 'escape'],
+                []
+            );
+        } catch (SecurityError $e) {
+            $e->setSourceContext($this->source);
+
+            if ($e instanceof SecurityNotAllowedTagError && isset($tags[$e->getTagName()])) {
+                $e->setTemplateLine($tags[$e->getTagName()]);
+            } elseif ($e instanceof SecurityNotAllowedFilterError && isset($filters[$e->getFilterName()])) {
+                $e->setTemplateLine($filters[$e->getFilterName()]);
+            } elseif ($e instanceof SecurityNotAllowedFunctionError && isset($functions[$e->getFunctionName()])) {
+                $e->setTemplateLine($functions[$e->getFunctionName()]);
+            }
+
+            throw $e;
+        }
+
+    }
+}
